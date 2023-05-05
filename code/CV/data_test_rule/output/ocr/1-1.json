@@ -1,0 +1,309 @@
+{
+    "img_shape": [
+        2972,
+        1440,
+        3
+    ],
+    "texts": [
+        {
+            "id": 0,
+            "content": "MyM",
+            "column_min": 69,
+            "row_min": 68,
+            "column_max": 420,
+            "row_max": 238,
+            "width": 351,
+            "height": 170
+        },
+        {
+            "id": 1,
+            "content": "? 0 pts",
+            "column_min": 1020,
+            "row_min": 96,
+            "column_max": 1350,
+            "row_max": 173,
+            "width": 330,
+            "height": 77
+        },
+        {
+            "id": 2,
+            "content": "View history",
+            "column_min": 1052,
+            "row_min": 303,
+            "column_max": 1351,
+            "row_max": 369,
+            "width": 299,
+            "height": 66
+        },
+        {
+            "id": 3,
+            "content": "0",
+            "column_min": 120,
+            "row_min": 542,
+            "column_max": 156,
+            "row_max": 591,
+            "width": 36,
+            "height": 49
+        },
+        {
+            "id": 4,
+            "content": "2500",
+            "column_min": 468,
+            "row_min": 542,
+            "column_max": 585,
+            "row_max": 588,
+            "width": 117,
+            "height": 46
+        },
+        {
+            "id": 5,
+            "content": "5000",
+            "column_min": 852,
+            "row_min": 542,
+            "column_max": 969,
+            "row_max": 588,
+            "width": 117,
+            "height": 46
+        },
+        {
+            "id": 6,
+            "content": "7500",
+            "column_min": 1236,
+            "row_min": 542,
+            "column_max": 1353,
+            "row_max": 588,
+            "width": 117,
+            "height": 46
+        },
+        {
+            "id": 7,
+            "content": "My Deals",
+            "column_min": 90,
+            "row_min": 731,
+            "column_max": 468,
+            "row_max": 817,
+            "width": 378,
+            "height": 86
+        },
+        {
+            "id": 8,
+            "content": "Share your location",
+            "column_min": 153,
+            "row_min": 994,
+            "column_max": 960,
+            "row_max": 1071,
+            "width": 807,
+            "height": 77
+        },
+        {
+            "id": 9,
+            "content": "for local deals, McCaf\u00e9 Rewards",
+            "column_min": 147,
+            "row_min": 1111,
+            "column_max": 897,
+            "row_max": 1167,
+            "width": 750,
+            "height": 56
+        },
+        {
+            "id": 10,
+            "content": "and more. Check our Privacy",
+            "column_min": 147,
+            "row_min": 1179,
+            "column_max": 825,
+            "row_max": 1239,
+            "width": 678,
+            "height": 60
+        },
+        {
+            "id": 11,
+            "content": "Statement for details on how",
+            "column_min": 153,
+            "row_min": 1254,
+            "column_max": 834,
+            "row_max": 1297,
+            "width": 681,
+            "height": 43
+        },
+        {
+            "id": 12,
+            "content": "your data will be used.",
+            "column_min": 144,
+            "row_min": 1312,
+            "column_max": 672,
+            "row_max": 1372,
+            "width": 528,
+            "height": 60
+        },
+        {
+            "id": 13,
+            "content": "Yes, Open Settings",
+            "column_min": 207,
+            "row_min": 1483,
+            "column_max": 651,
+            "row_max": 1539,
+            "width": 444,
+            "height": 56
+        },
+        {
+            "id": 14,
+            "content": "Bonuses",
+            "column_min": 86,
+            "row_min": 1776,
+            "column_max": 454,
+            "row_max": 1852,
+            "width": 368,
+            "height": 76
+        },
+        {
+            "id": 15,
+            "content": "Treat Yourself Today",
+            "column_min": 87,
+            "row_min": 1879,
+            "column_max": 588,
+            "row_max": 1938,
+            "width": 501,
+            "height": 59
+        },
+        {
+            "id": 16,
+            "content": "Enjoy even more ways to earn points faster on the",
+            "column_min": 90,
+            "row_min": 1991,
+            "column_max": 1245,
+            "row_max": 2034,
+            "width": 1155,
+            "height": 43
+        },
+        {
+            "id": 17,
+            "content": "items you love",
+            "column_min": 84,
+            "row_min": 2059,
+            "column_max": 432,
+            "row_max": 2115,
+            "width": 348,
+            "height": 56
+        },
+        {
+            "id": 18,
+            "content": "Tap here & tell",
+            "column_min": 165,
+            "row_min": 2232,
+            "column_max": 759,
+            "row_max": 2313,
+            "width": 594,
+            "height": 81
+        },
+        {
+            "id": 19,
+            "content": "us your birthday.",
+            "column_min": 159,
+            "row_min": 2322,
+            "column_max": 852,
+            "row_max": 2412,
+            "width": 693,
+            "height": 90
+        },
+        {
+            "id": 20,
+            "content": "We'll help you ...",
+            "column_min": 162,
+            "row_min": 2414,
+            "column_max": 825,
+            "row_max": 2502,
+            "width": 663,
+            "height": 88
+        },
+        {
+            "id": 21,
+            "content": "Bonus expires 01/01/2023",
+            "column_min": 156,
+            "row_min": 2529,
+            "column_max": 588,
+            "row_max": 2573,
+            "width": 432,
+            "height": 44
+        },
+        {
+            "id": 22,
+            "content": "m",
+            "column_min": 90,
+            "row_min": 2789,
+            "column_max": 198,
+            "row_max": 2882,
+            "width": 108,
+            "height": 93
+        },
+        {
+            "id": 23,
+            "content": "1234",
+            "column_min": 957,
+            "row_min": 2808,
+            "column_max": 1062,
+            "row_max": 2854,
+            "width": 105,
+            "height": 46
+        },
+        {
+            "id": 24,
+            "content": "000",
+            "column_min": 1241,
+            "row_min": 2810,
+            "column_max": 1351,
+            "row_max": 2855,
+            "width": 110,
+            "height": 45
+        },
+        {
+            "id": 25,
+            "content": "Home",
+            "column_min": 90,
+            "row_min": 2901,
+            "column_max": 201,
+            "row_max": 2944,
+            "width": 111,
+            "height": 43
+        },
+        {
+            "id": 26,
+            "content": "Order",
+            "column_min": 378,
+            "row_min": 2901,
+            "column_max": 483,
+            "row_max": 2944,
+            "width": 105,
+            "height": 43
+        },
+        {
+            "id": 27,
+            "content": "Rewards & Deals",
+            "column_min": 576,
+            "row_min": 2901,
+            "column_max": 864,
+            "row_max": 2944,
+            "width": 288,
+            "height": 43
+        },
+        {
+            "id": 28,
+            "content": "Code",
+            "column_min": 957,
+            "row_min": 2901,
+            "column_max": 1059,
+            "row_max": 2944,
+            "width": 102,
+            "height": 43
+        },
+        {
+            "id": 29,
+            "content": "More",
+            "column_min": 1244,
+            "row_min": 2897,
+            "column_max": 1345,
+            "row_max": 2948,
+            "width": 101,
+            "height": 51
+        }
+    ]
+}

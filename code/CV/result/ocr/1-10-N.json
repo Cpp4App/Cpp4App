@@ -1,0 +1,229 @@
+{
+    "img_shape": [
+        2981,
+        1440,
+        3
+    ],
+    "texts": [
+        {
+            "id": 0,
+            "content": "M",
+            "column_min": 646,
+            "row_min": 25,
+            "column_max": 788,
+            "row_max": 152,
+            "width": 142,
+            "height": 127
+        },
+        {
+            "id": 1,
+            "content": "Sign in",
+            "column_min": 331,
+            "row_min": 183,
+            "column_max": 501,
+            "row_max": 239,
+            "width": 170,
+            "height": 56
+        },
+        {
+            "id": 2,
+            "content": "What's new",
+            "column_min": 86,
+            "row_min": 447,
+            "column_max": 573,
+            "row_max": 528,
+            "width": 487,
+            "height": 81
+        },
+        {
+            "id": 3,
+            "content": "McSpicy Deluxe",
+            "column_min": 151,
+            "row_min": 773,
+            "column_max": 810,
+            "row_max": 854,
+            "width": 659,
+            "height": 81
+        },
+        {
+            "id": 4,
+            "content": "A fancy twist on a fiery favourite",
+            "column_min": 151,
+            "row_min": 888,
+            "column_max": 900,
+            "row_max": 932,
+            "width": 749,
+            "height": 44
+        },
+        {
+            "id": 5,
+            "content": "Order now",
+            "column_min": 298,
+            "row_min": 1049,
+            "column_max": 553,
+            "row_max": 1100,
+            "width": 255,
+            "height": 51
+        },
+        {
+            "id": 6,
+            "content": "Angus Deluxe",
+            "column_min": 151,
+            "row_min": 1450,
+            "column_max": 726,
+            "row_max": 1525,
+            "width": 575,
+            "height": 75
+        },
+        {
+            "id": 7,
+            "content": "100% Aussie beef with a nice",
+            "column_min": 145,
+            "row_min": 1549,
+            "column_max": 826,
+            "row_max": 1605,
+            "width": 681,
+            "height": 56
+        },
+        {
+            "id": 8,
+            "content": "slice of beetroot.",
+            "column_min": 151,
+            "row_min": 1612,
+            "column_max": 543,
+            "row_max": 1655,
+            "width": 392,
+            "height": 43
+        },
+        {
+            "id": 9,
+            "content": "Order now",
+            "column_min": 305,
+            "row_min": 1770,
+            "column_max": 553,
+            "row_max": 1813,
+            "width": 248,
+            "height": 43
+        },
+        {
+            "id": 10,
+            "content": "Hokey Pokey",
+            "column_min": 147,
+            "row_min": 2157,
+            "column_max": 682,
+            "row_max": 2246,
+            "width": 535,
+            "height": 89
+        },
+        {
+            "id": 11,
+            "content": "Thickshake",
+            "column_min": 154,
+            "row_min": 2257,
+            "column_max": 633,
+            "row_max": 2323,
+            "width": 479,
+            "height": 66
+        },
+        {
+            "id": 12,
+            "content": "Now this is what it's all about",
+            "column_min": 151,
+            "row_min": 2366,
+            "column_max": 832,
+            "row_max": 2410,
+            "width": 681,
+            "height": 44
+        },
+        {
+            "id": 13,
+            "content": "Order now",
+            "column_min": 302,
+            "row_min": 2521,
+            "column_max": 553,
+            "row_max": 2572,
+            "width": 251,
+            "height": 51
+        },
+        {
+            "id": 14,
+            "content": "M",
+            "column_min": 90,
+            "row_min": 2807,
+            "column_max": 193,
+            "row_max": 2891,
+            "width": 103,
+            "height": 84
+        },
+        {
+            "id": 15,
+            "content": "1234",
+            "column_min": 958,
+            "row_min": 2820,
+            "column_max": 1058,
+            "row_max": 2863,
+            "width": 100,
+            "height": 43
+        },
+        {
+            "id": 16,
+            "content": "000",
+            "column_min": 1244,
+            "row_min": 2829,
+            "column_max": 1347,
+            "row_max": 2863,
+            "width": 103,
+            "height": 34
+        },
+        {
+            "id": 17,
+            "content": "Order",
+            "column_min": 379,
+            "row_min": 2910,
+            "column_max": 482,
+            "row_max": 2953,
+            "width": 103,
+            "height": 43
+        },
+        {
+            "id": 18,
+            "content": "Code",
+            "column_min": 958,
+            "row_min": 2910,
+            "column_max": 1058,
+            "row_max": 2953,
+            "width": 100,
+            "height": 43
+        },
+        {
+            "id": 19,
+            "content": "Home",
+            "column_min": 87,
+            "row_min": 2913,
+            "column_max": 202,
+            "row_max": 2956,
+            "width": 115,
+            "height": 43
+        },
+        {
+            "id": 20,
+            "content": "Rewards & Deals",
+            "column_min": 579,
+            "row_min": 2913,
+            "column_max": 858,
+            "row_max": 2953,
+            "width": 279,
+            "height": 40
+        },
+        {
+            "id": 21,
+            "content": "More",
+            "column_min": 1239,
+            "row_min": 2905,
+            "column_max": 1348,
+            "row_max": 2957,
+            "width": 109,
+            "height": 52
+        }
+    ]
+}

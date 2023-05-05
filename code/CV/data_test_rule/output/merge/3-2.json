@@ -1,0 +1,406 @@
+{
+    "compos": [
+        {
+            "id": 0,
+            "class": "Compo",
+            "height": 29,
+            "width": 30,
+            "position": {
+                "column_min": 287,
+                "row_min": 13,
+                "column_max": 317,
+                "row_max": 42
+            }
+        },
+        {
+            "id": 1,
+            "class": "Compo",
+            "height": 15,
+            "width": 14,
+            "position": {
+                "column_min": 16,
+                "row_min": 20,
+                "column_max": 30,
+                "row_max": 35
+            }
+        },
+        {
+            "id": 2,
+            "class": "Compo",
+            "height": 18,
+            "width": 18,
+            "position": {
+                "column_min": 212,
+                "row_min": 18,
+                "column_max": 230,
+                "row_max": 36
+            }
+        },
+        {
+            "id": 3,
+            "class": "Compo",
+            "height": 17,
+            "width": 17,
+            "position": {
+                "column_min": 253,
+                "row_min": 18,
+                "column_max": 270,
+                "row_max": 35
+            }
+        },
+        {
+            "id": 4,
+            "class": "Compo",
+            "height": 53,
+            "width": 58,
+            "position": {
+                "column_min": 250,
+                "row_min": 145,
+                "column_max": 308,
+                "row_max": 198
+            }
+        },
+        {
+            "id": 5,
+            "class": "Compo",
+            "height": 53,
+            "width": 52,
+            "position": {
+                "column_min": 253,
+                "row_min": 344,
+                "column_max": 305,
+                "row_max": 397
+            }
+        },
+        {
+            "id": 6,
+            "class": "Text",
+            "height": 19,
+            "width": 131,
+            "position": {
+                "column_min": 42,
+                "row_min": 17,
+                "column_max": 173,
+                "row_max": 36
+            },
+            "text_content": "Google Account"
+        },
+        {
+            "id": 7,
+            "class": "Text",
+            "height": 12,
+            "width": 36,
+            "position": {
+                "column_min": 22,
+                "row_min": 68,
+                "column_max": 58,
+                "row_max": 80
+            },
+            "text_content": "Home"
+        },
+        {
+            "id": 8,
+            "class": "Text",
+            "height": 11,
+            "width": 73,
+            "position": {
+                "column_min": 83,
+                "row_min": 69,
+                "column_max": 156,
+                "row_max": 80
+            },
+            "text_content": "Personalinfo"
+        },
+        {
+            "id": 9,
+            "class": "Text",
+            "height": 15,
+            "width": 85,
+            "position": {
+                "column_min": 181,
+                "row_min": 67,
+                "column_max": 266,
+                "row_max": 82
+            },
+            "text_content": "Data & privacy"
+        },
+        {
+            "id": 10,
+            "class": "Text",
+            "height": 12,
+            "width": 36,
+            "position": {
+                "column_min": 290,
+                "row_min": 69,
+                "column_max": 326,
+                "row_max": 81
+            },
+            "text_content": "Securi"
+        },
+        {
+            "id": 11,
+            "class": "Text",
+            "height": 17,
+            "width": 182,
+            "position": {
+                "column_min": 21,
+                "row_min": 105,
+                "column_max": 203,
+                "row_max": 122
+            },
+            "text_content": "Your profile info in Google"
+        },
+        {
+            "id": 12,
+            "class": "Text",
+            "height": 14,
+            "width": 60,
+            "position": {
+                "column_min": 20,
+                "row_min": 130,
+                "column_max": 80,
+                "row_max": 144
+            },
+            "text_content": "services"
+        },
+        {
+            "id": 13,
+            "class": "Text",
+            "height": 15,
+            "width": 199,
+            "position": {
+                "column_min": 19,
+                "row_min": 153,
+                "column_max": 218,
+                "row_max": 168
+            },
+            "text_content": "Personal info and options to manage"
+        },
+        {
+            "id": 14,
+            "class": "Text",
+            "height": 12,
+            "width": 204,
+            "position": {
+                "column_min": 21,
+                "row_min": 172,
+                "column_max": 225,
+                "row_max": 184
+            },
+            "text_content": "it. You can make some of this info, like"
+        },
+        {
+            "id": 15,
+            "class": "Text",
+            "height": 11,
+            "width": 211,
+            "position": {
+                "column_min": 20,
+                "row_min": 190,
+                "column_max": 231,
+                "row_max": 201
+            },
+            "text_content": "your contact details, visible to others so"
+        },
+        {
+            "id": 16,
+            "class": "Text",
+            "height": 12,
+            "width": 207,
+            "position": {
+                "column_min": 21,
+                "row_min": 207,
+                "column_max": 228,
+                "row_max": 219
+            },
+            "text_content": "they can reach you easily. You can also"
+        },
+        {
+            "id": 17,
+            "class": "Text",
+            "height": 12,
+            "width": 166,
+            "position": {
+                "column_min": 21,
+                "row_min": 224,
+                "column_max": 187,
+                "row_max": 236
+            },
+            "text_content": "see a summary of your profiles."
+        },
+        {
+            "id": 18,
+            "class": "Text",
+            "height": 15,
+            "width": 66,
+            "position": {
+                "column_min": 21,
+                "row_min": 268,
+                "column_max": 87,
+                "row_max": 283
+            },
+            "text_content": "Basic info"
+        },
+        {
+            "id": 19,
+            "class": "Text",
+            "height": 16,
+            "width": 250,
+            "position": {
+                "column_min": 20,
+                "row_min": 298,
+                "column_max": 270,
+                "row_max": 314
+            },
+            "text_content": "Some info may be visible to other people using"
+        },
+        {
+            "id": 20,
+            "class": "Text",
+            "height": 11,
+            "width": 151,
+            "position": {
+                "column_min": 22,
+                "row_min": 318,
+                "column_max": 173,
+                "row_max": 329
+            },
+            "text_content": "Googleservices.Learnmore"
+        },
+        {
+            "id": 21,
+            "class": "Text",
+            "height": 11,
+            "width": 36,
+            "position": {
+                "column_min": 20,
+                "row_min": 354,
+                "column_max": 56,
+                "row_max": 365
+            },
+            "text_content": "PHOTO"
+        },
+        {
+            "id": 22,
+            "class": "Text",
+            "height": 12,
+            "width": 217,
+            "position": {
+                "column_min": 20,
+                "row_min": 372,
+                "column_max": 237,
+                "row_max": 384
+            },
+            "text_content": "Add a photo to personalize your account"
+        },
+        {
+            "id": 23,
+            "class": "Text",
+            "height": 12,
+            "width": 33,
+            "position": {
+                "column_min": 19,
+                "row_min": 424,
+                "column_max": 52,
+                "row_max": 436
+            },
+            "text_content": "NAME"
+        },
+        {
+            "id": 24,
+            "class": "Text",
+            "height": 9,
+            "width": 49,
+            "position": {
+                "column_min": 21,
+                "row_min": 491,
+                "column_max": 70,
+                "row_max": 500
+            },
+            "text_content": "BIRTHDAY"
+        },
+        {
+            "id": 25,
+            "class": "Text",
+            "height": 12,
+            "width": 42,
+            "position": {
+                "column_min": 20,
+                "row_min": 555,
+                "column_max": 62,
+                "row_max": 567
+            },
+            "text_content": "GENDER"
+        },
+        {
+            "id": 26,
+            "class": "Text",
+            "height": 16,
+            "width": 88,
+            "position": {
+                "column_min": 20,
+                "row_min": 633,
+                "column_max": 108,
+                "row_max": 649
+            },
+            "text_content": "Contact info"
+        },
+        {
+            "id": 27,
+            "class": "Text",
+            "height": 13,
+            "width": 32,
+            "position": {
+                "column_min": 20,
+                "row_min": 669,
+                "column_max": 52,
+                "row_max": 682
+            },
+            "text_content": "EMAIL"
+        },
+        {
+            "id": 28,
+            "class": "Text",
+            "height": 12,
+            "width": 37,
+            "position": {
+                "column_min": 20,
+                "row_min": 735,
+                "column_max": 57,
+                "row_max": 747
+            },
+            "text_content": "PHONE"
+        },
+        {
+            "id": 29,
+            "class": "Text",
+            "height": 12,
+            "width": 210,
+            "position": {
+                "column_min": 21,
+                "row_min": 755,
+                "column_max": 231,
+                "row_max": 767
+            },
+            "text_content": "Add a recovery phone to help keep your"
+        },
+        {
+            "id": 30,
+            "class": "Text",
+            "height": 10,
+            "width": 84,
+            "position": {
+                "column_min": 20,
+                "row_min": 774,
+                "column_max": 104,
+                "row_max": 784
+            },
+            "text_content": "accountsecure"
+        }
+    ],
+    "img_shape": [
+        800,
+        327,
+        3
+    ]
+}

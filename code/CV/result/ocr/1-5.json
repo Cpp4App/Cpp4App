@@ -1,0 +1,109 @@
+{
+    "img_shape": [
+        2973,
+        1440,
+        3
+    ],
+    "texts": [
+        {
+            "id": 0,
+            "content": "Log in",
+            "column_min": 324,
+            "row_min": 228,
+            "column_max": 483,
+            "row_max": 295,
+            "width": 159,
+            "height": 67
+        },
+        {
+            "id": 1,
+            "content": "Sign up",
+            "column_min": 931,
+            "row_min": 222,
+            "column_max": 1136,
+            "row_max": 298,
+            "width": 205,
+            "height": 76
+        },
+        {
+            "id": 2,
+            "content": "Sign up to check out personalized deals,",
+            "column_min": 90,
+            "row_min": 523,
+            "column_max": 1035,
+            "row_max": 579,
+            "width": 945,
+            "height": 56
+        },
+        {
+            "id": 3,
+            "content": "save favourites , keep track of your order history and",
+            "column_min": 93,
+            "row_min": 598,
+            "column_max": 1311,
+            "row_max": 641,
+            "width": 1218,
+            "height": 43
+        },
+        {
+            "id": 4,
+            "content": "more.",
+            "column_min": 83,
+            "row_min": 659,
+            "column_max": 229,
+            "row_max": 713,
+            "width": 146,
+            "height": 54
+        },
+        {
+            "id": 5,
+            "content": "4",
+            "column_min": 193,
+            "row_min": 966,
+            "column_max": 228,
+            "row_max": 1022,
+            "width": 35,
+            "height": 56
+        },
+        {
+            "id": 6,
+            "content": "Sign up with Facebook",
+            "column_min": 331,
+            "row_min": 966,
+            "column_max": 894,
+            "row_max": 1028,
+            "width": 563,
+            "height": 62
+        },
+        {
+            "id": 7,
+            "content": "Sign up with Google",
+            "column_min": 331,
+            "row_min": 1273,
+            "column_max": 823,
+            "row_max": 1325,
+            "width": 492,
+            "height": 52
+        },
+        {
+            "id": 8,
+            "content": "or",
+            "column_min": 701,
+            "row_min": 1592,
+            "column_max": 736,
+            "row_max": 1623,
+            "width": 35,
+            "height": 31
+        },
+        {
+            "id": 9,
+            "content": "Sign up with Email",
+            "column_min": 347,
+            "row_min": 1765,
+            "column_max": 807,
+            "row_max": 1818,
+            "width": 460,
+            "height": 53
+        }
+    ]
+}

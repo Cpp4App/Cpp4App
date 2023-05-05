@@ -1,0 +1,228 @@
+{
+    "compos": [
+        {
+            "id": 0,
+            "class": "Compo",
+            "height": 25,
+            "width": 25,
+            "position": {
+                "column_min": 15,
+                "row_min": 18,
+                "column_max": 40,
+                "row_max": 43
+            }
+        },
+        {
+            "id": 1,
+            "class": "Compo",
+            "height": 18,
+            "width": 18,
+            "position": {
+                "column_min": 22,
+                "row_min": 247,
+                "column_max": 40,
+                "row_max": 265
+            }
+        },
+        {
+            "id": 2,
+            "class": "Text",
+            "height": 11,
+            "width": 57,
+            "position": {
+                "column_min": 164,
+                "row_min": 25,
+                "column_max": 221,
+                "row_max": 36
+            },
+            "text_content": "STEP 1 OF 3"
+        },
+        {
+            "id": 3,
+            "class": "Text",
+            "height": 21,
+            "width": 281,
+            "position": {
+                "column_min": 24,
+                "row_min": 80,
+                "column_max": 305,
+                "row_max": 101
+            },
+            "text_content": "Enter your email address"
+        },
+        {
+            "id": 4,
+            "class": "Text",
+            "height": 11,
+            "width": 75,
+            "position": {
+                "column_min": 36,
+                "row_min": 169,
+                "column_max": 111,
+                "row_max": 180
+            },
+            "text_content": "Email address"
+        },
+        {
+            "id": 5,
+            "class": "Text",
+            "height": 16,
+            "width": 256,
+            "position": {
+                "column_min": 56,
+                "row_min": 249,
+                "column_max": 312,
+                "row_max": 265
+            },
+            "text_content": "Yes! I would like to receive, by electronic means,"
+        },
+        {
+            "id": 6,
+            "class": "Text",
+            "height": 12,
+            "width": 276,
+            "position": {
+                "column_min": 56,
+                "row_min": 270,
+                "column_max": 332,
+                "row_max": 282
+            },
+            "text_content": "updates, information, and offers about Disney+ and"
+        },
+        {
+            "id": 7,
+            "class": "Text",
+            "height": 13,
+            "width": 303,
+            "position": {
+                "column_min": 55,
+                "row_min": 289,
+                "column_max": 358,
+                "row_max": 302
+            },
+            "text_content": "other products and services from The Walt Disney Family"
+        },
+        {
+            "id": 8,
+            "class": "Text",
+            "height": 13,
+            "width": 79,
+            "position": {
+                "column_min": 55,
+                "row_min": 308,
+                "column_max": 134,
+                "row_max": 321
+            },
+            "text_content": "of Companies."
+        },
+        {
+            "id": 9,
+            "class": "Text",
+            "height": 14,
+            "width": 308,
+            "position": {
+                "column_min": 23,
+                "row_min": 360,
+                "column_max": 331,
+                "row_max": 374
+            },
+            "text_content": "Disney will use your data to personalise and improve your"
+        },
+        {
+            "id": 10,
+            "class": "Text",
+            "height": 15,
+            "width": 300,
+            "position": {
+                "column_min": 22,
+                "row_min": 379,
+                "column_max": 322,
+                "row_max": 394
+            },
+            "text_content": "Disney+ experience and to send you information about"
+        },
+        {
+            "id": 11,
+            "class": "Text",
+            "height": 13,
+            "width": 318,
+            "position": {
+                "column_min": 23,
+                "row_min": 399,
+                "column_max": 341,
+                "row_max": 412
+            },
+            "text_content": "Disney+. You can change your communication preferences"
+        },
+        {
+            "id": 12,
+            "class": "Text",
+            "height": 12,
+            "width": 312,
+            "position": {
+                "column_min": 24,
+                "row_min": 419,
+                "column_max": 336,
+                "row_max": 431
+            },
+            "text_content": "anytime. We may use your data as described in our Privacy"
+        },
+        {
+            "id": 13,
+            "class": "Text",
+            "height": 11,
+            "width": 304,
+            "position": {
+                "column_min": 24,
+                "row_min": 439,
+                "column_max": 328,
+                "row_max": 450
+            },
+            "text_content": "Policy, including sharing it with The Walt Disney Family of"
+        },
+        {
+            "id": 14,
+            "class": "Text",
+            "height": 11,
+            "width": 328,
+            "position": {
+                "column_min": 24,
+                "row_min": 458,
+                "column_max": 352,
+                "row_max": 469
+            },
+            "text_content": "Companies. By clicking \"Agree & Continue\",you agree to our"
+        },
+        {
+            "id": 15,
+            "class": "Text",
+            "height": 13,
+            "width": 233,
+            "position": {
+                "column_min": 23,
+                "row_min": 495,
+                "column_max": 256,
+                "row_max": 508
+            },
+            "text_content": "our Privacy Policy and Collection Statement."
+        },
+        {
+            "id": 16,
+            "class": "Text",
+            "height": 12,
+            "width": 185,
+            "position": {
+                "column_min": 100,
+                "row_min": 538,
+                "column_max": 285,
+                "row_max": 550
+            },
+            "text_content": "AGREE & CONTINUE"
+        }
+    ],
+    "img_shape": [
+        800,
+        384,
+        3
+    ]
+}

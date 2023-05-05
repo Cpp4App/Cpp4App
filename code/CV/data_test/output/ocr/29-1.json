@@ -1,0 +1,109 @@
+{
+    "img_shape": [
+        3002,
+        1440,
+        3
+    ],
+    "texts": [
+        {
+            "id": 0,
+            "content": "COLOUR: 55 GREEN",
+            "column_min": 58,
+            "row_min": 84,
+            "column_max": 492,
+            "row_max": 135,
+            "width": 434,
+            "height": 51
+        },
+        {
+            "id": 1,
+            "content": "SIZE: MEN S",
+            "column_min": 61,
+            "row_min": 450,
+            "column_max": 347,
+            "row_max": 494,
+            "width": 286,
+            "height": 44
+        },
+        {
+            "id": 2,
+            "content": "Unable to turn location service on because the",
+            "column_min": 219,
+            "row_min": 1576,
+            "column_max": 1225,
+            "row_max": 1617,
+            "width": 1006,
+            "height": 41
+        },
+        {
+            "id": 3,
+            "content": "location service settings on your device is disabled.",
+            "column_min": 157,
+            "row_min": 1626,
+            "column_max": 1276,
+            "row_max": 1682,
+            "width": 1119,
+            "height": 56
+        },
+        {
+            "id": 4,
+            "content": "Please go to settings and allow location service.",
+            "column_min": 196,
+            "row_min": 1689,
+            "column_max": 1238,
+            "row_max": 1732,
+            "width": 1042,
+            "height": 43
+        },
+        {
+            "id": 5,
+            "content": "OK",
+            "column_min": 688,
+            "row_min": 1895,
+            "column_max": 752,
+            "row_max": 1951,
+            "width": 64,
+            "height": 56
+        },
+        {
+            "id": 6,
+            "content": "CANCEL",
+            "column_min": 630,
+            "row_min": 2136,
+            "column_max": 810,
+            "row_max": 2192,
+            "width": 180,
+            "height": 56
+        },
+        {
+            "id": 7,
+            "content": "FIND IN STORE",
+            "column_min": 228,
+            "row_min": 2486,
+            "column_max": 627,
+            "row_max": 2539,
+            "width": 399,
+            "height": 53
+        },
+        {
+            "id": 8,
+            "content": "DESCRIPTION",
+            "column_min": 58,
+            "row_min": 2789,
+            "column_max": 379,
+            "row_max": 2843,
+            "width": 321,
+            "height": 54
+        },
+        {
+            "id": 9,
+            "content": "Product ID: 456149",
+            "column_min": 990,
+            "row_min": 2802,
+            "column_max": 1376,
+            "row_max": 2843,
+            "width": 386,
+            "height": 41
+        }
+    ]
+}

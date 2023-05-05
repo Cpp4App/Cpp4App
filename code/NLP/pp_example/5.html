@@ -1,0 +1,925 @@
+<!DOCTYPE html><html itemscope="" itemtype="http://schema.org/WebPage" lang="en" data-react-helmet="lang"><head><meta charset="utf-8"><link rel="icon" href="/favicon.ico"><meta name="author" content="Kevin Perreau"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#000000"><link rel="apple-touch-icon" href="/images/logos/bereal.png"><meta property="og:image" content="https://bere.al/images/logos/bereal-twitter.png"><meta property="og:image:type" content="image/png"><meta property="og:image:height" content="600"><meta property="og:image:width" content="1200"><meta name="twitter:site" content="@bereal_app"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="https://bere.al/images/logos/bereal-twitter.png"><meta itemprop="image" content="https://bere.al/images/logos/bereal-twitter.png"><meta property="keywords" content="BeReal, App, Uncontrollable, photos, Friends, Real"><meta name="BeReal" content="app-id=1459645446, app-argument=landing"><link rel="manifest" href="/manifest.json"><title>BeReal. Your Friends for Real.</title><link href="/static/css/main.6dea0f05.chunk.css" rel="stylesheet"><style data-jss="" data-meta="MuiGrid">
+.MuiGrid-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+.MuiGrid-item {
+  margin: 0;
+  box-sizing: border-box;
+}
+.MuiGrid-zeroMinWidth {
+  min-width: 0;
+}
+.MuiGrid-direction-xs-column {
+  flex-direction: column;
+}
+.MuiGrid-direction-xs-column-reverse {
+  flex-direction: column-reverse;
+}
+.MuiGrid-direction-xs-row-reverse {
+  flex-direction: row-reverse;
+}
+.MuiGrid-wrap-xs-nowrap {
+  flex-wrap: nowrap;
+}
+.MuiGrid-wrap-xs-wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
+.MuiGrid-align-items-xs-center {
+  align-items: center;
+}
+.MuiGrid-align-items-xs-flex-start {
+  align-items: flex-start;
+}
+.MuiGrid-align-items-xs-flex-end {
+  align-items: flex-end;
+}
+.MuiGrid-align-items-xs-baseline {
+  align-items: baseline;
+}
+.MuiGrid-align-content-xs-center {
+  align-content: center;
+}
+.MuiGrid-align-content-xs-flex-start {
+  align-content: flex-start;
+}
+.MuiGrid-align-content-xs-flex-end {
+  align-content: flex-end;
+}
+.MuiGrid-align-content-xs-space-between {
+  align-content: space-between;
+}
+.MuiGrid-align-content-xs-space-around {
+  align-content: space-around;
+}
+.MuiGrid-justify-content-xs-center {
+  justify-content: center;
+}
+.MuiGrid-justify-content-xs-flex-end {
+  justify-content: flex-end;
+}
+.MuiGrid-justify-content-xs-space-between {
+  justify-content: space-between;
+}
+.MuiGrid-justify-content-xs-space-around {
+  justify-content: space-around;
+}
+.MuiGrid-justify-content-xs-space-evenly {
+  justify-content: space-evenly;
+}
+.MuiGrid-spacing-xs-1 {
+  width: calc(100% + 8px);
+  margin: -4px;
+}
+.MuiGrid-spacing-xs-1 > .MuiGrid-item {
+  padding: 4px;
+}
+.MuiGrid-spacing-xs-2 {
+  width: calc(100% + 16px);
+  margin: -8px;
+}
+.MuiGrid-spacing-xs-2 > .MuiGrid-item {
+  padding: 8px;
+}
+.MuiGrid-spacing-xs-3 {
+  width: calc(100% + 24px);
+  margin: -12px;
+}
+.MuiGrid-spacing-xs-3 > .MuiGrid-item {
+  padding: 12px;
+}
+.MuiGrid-spacing-xs-4 {
+  width: calc(100% + 32px);
+  margin: -16px;
+}
+.MuiGrid-spacing-xs-4 > .MuiGrid-item {
+  padding: 16px;
+}
+.MuiGrid-spacing-xs-5 {
+  width: calc(100% + 40px);
+  margin: -20px;
+}
+.MuiGrid-spacing-xs-5 > .MuiGrid-item {
+  padding: 20px;
+}
+.MuiGrid-spacing-xs-6 {
+  width: calc(100% + 48px);
+  margin: -24px;
+}
+.MuiGrid-spacing-xs-6 > .MuiGrid-item {
+  padding: 24px;
+}
+.MuiGrid-spacing-xs-7 {
+  width: calc(100% + 56px);
+  margin: -28px;
+}
+.MuiGrid-spacing-xs-7 > .MuiGrid-item {
+  padding: 28px;
+}
+.MuiGrid-spacing-xs-8 {
+  width: calc(100% + 64px);
+  margin: -32px;
+}
+.MuiGrid-spacing-xs-8 > .MuiGrid-item {
+  padding: 32px;
+}
+.MuiGrid-spacing-xs-9 {
+  width: calc(100% + 72px);
+  margin: -36px;
+}
+.MuiGrid-spacing-xs-9 > .MuiGrid-item {
+  padding: 36px;
+}
+.MuiGrid-spacing-xs-10 {
+  width: calc(100% + 80px);
+  margin: -40px;
+}
+.MuiGrid-spacing-xs-10 > .MuiGrid-item {
+  padding: 40px;
+}
+.MuiGrid-grid-xs-auto {
+  flex-grow: 0;
+  max-width: none;
+  flex-basis: auto;
+}
+.MuiGrid-grid-xs-true {
+  flex-grow: 1;
+  max-width: 100%;
+  flex-basis: 0;
+}
+.MuiGrid-grid-xs-1 {
+  flex-grow: 0;
+  max-width: 8.333333%;
+  flex-basis: 8.333333%;
+}
+.MuiGrid-grid-xs-2 {
+  flex-grow: 0;
+  max-width: 16.666667%;
+  flex-basis: 16.666667%;
+}
+.MuiGrid-grid-xs-3 {
+  flex-grow: 0;
+  max-width: 25%;
+  flex-basis: 25%;
+}
+.MuiGrid-grid-xs-4 {
+  flex-grow: 0;
+  max-width: 33.333333%;
+  flex-basis: 33.333333%;
+}
+.MuiGrid-grid-xs-5 {
+  flex-grow: 0;
+  max-width: 41.666667%;
+  flex-basis: 41.666667%;
+}
+.MuiGrid-grid-xs-6 {
+  flex-grow: 0;
+  max-width: 50%;
+  flex-basis: 50%;
+}
+.MuiGrid-grid-xs-7 {
+  flex-grow: 0;
+  max-width: 58.333333%;
+  flex-basis: 58.333333%;
+}
+.MuiGrid-grid-xs-8 {
+  flex-grow: 0;
+  max-width: 66.666667%;
+  flex-basis: 66.666667%;
+}
+.MuiGrid-grid-xs-9 {
+  flex-grow: 0;
+  max-width: 75%;
+  flex-basis: 75%;
+}
+.MuiGrid-grid-xs-10 {
+  flex-grow: 0;
+  max-width: 83.333333%;
+  flex-basis: 83.333333%;
+}
+.MuiGrid-grid-xs-11 {
+  flex-grow: 0;
+  max-width: 91.666667%;
+  flex-basis: 91.666667%;
+}
+.MuiGrid-grid-xs-12 {
+  flex-grow: 0;
+  max-width: 100%;
+  flex-basis: 100%;
+}
+@media (min-width:600px) {
+  .MuiGrid-grid-sm-auto {
+    flex-grow: 0;
+    max-width: none;
+    flex-basis: auto;
+  }
+  .MuiGrid-grid-sm-true {
+    flex-grow: 1;
+    max-width: 100%;
+    flex-basis: 0;
+  }
+  .MuiGrid-grid-sm-1 {
+    flex-grow: 0;
+    max-width: 8.333333%;
+    flex-basis: 8.333333%;
+  }
+  .MuiGrid-grid-sm-2 {
+    flex-grow: 0;
+    max-width: 16.666667%;
+    flex-basis: 16.666667%;
+  }
+  .MuiGrid-grid-sm-3 {
+    flex-grow: 0;
+    max-width: 25%;
+    flex-basis: 25%;
+  }
+  .MuiGrid-grid-sm-4 {
+    flex-grow: 0;
+    max-width: 33.333333%;
+    flex-basis: 33.333333%;
+  }
+  .MuiGrid-grid-sm-5 {
+    flex-grow: 0;
+    max-width: 41.666667%;
+    flex-basis: 41.666667%;
+  }
+  .MuiGrid-grid-sm-6 {
+    flex-grow: 0;
+    max-width: 50%;
+    flex-basis: 50%;
+  }
+  .MuiGrid-grid-sm-7 {
+    flex-grow: 0;
+    max-width: 58.333333%;
+    flex-basis: 58.333333%;
+  }
+  .MuiGrid-grid-sm-8 {
+    flex-grow: 0;
+    max-width: 66.666667%;
+    flex-basis: 66.666667%;
+  }
+  .MuiGrid-grid-sm-9 {
+    flex-grow: 0;
+    max-width: 75%;
+    flex-basis: 75%;
+  }
+  .MuiGrid-grid-sm-10 {
+    flex-grow: 0;
+    max-width: 83.333333%;
+    flex-basis: 83.333333%;
+  }
+  .MuiGrid-grid-sm-11 {
+    flex-grow: 0;
+    max-width: 91.666667%;
+    flex-basis: 91.666667%;
+  }
+  .MuiGrid-grid-sm-12 {
+    flex-grow: 0;
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+}
+@media (min-width:960px) {
+  .MuiGrid-grid-md-auto {
+    flex-grow: 0;
+    max-width: none;
+    flex-basis: auto;
+  }
+  .MuiGrid-grid-md-true {
+    flex-grow: 1;
+    max-width: 100%;
+    flex-basis: 0;
+  }
+  .MuiGrid-grid-md-1 {
+    flex-grow: 0;
+    max-width: 8.333333%;
+    flex-basis: 8.333333%;
+  }
+  .MuiGrid-grid-md-2 {
+    flex-grow: 0;
+    max-width: 16.666667%;
+    flex-basis: 16.666667%;
+  }
+  .MuiGrid-grid-md-3 {
+    flex-grow: 0;
+    max-width: 25%;
+    flex-basis: 25%;
+  }
+  .MuiGrid-grid-md-4 {
+    flex-grow: 0;
+    max-width: 33.333333%;
+    flex-basis: 33.333333%;
+  }
+  .MuiGrid-grid-md-5 {
+    flex-grow: 0;
+    max-width: 41.666667%;
+    flex-basis: 41.666667%;
+  }
+  .MuiGrid-grid-md-6 {
+    flex-grow: 0;
+    max-width: 50%;
+    flex-basis: 50%;
+  }
+  .MuiGrid-grid-md-7 {
+    flex-grow: 0;
+    max-width: 58.333333%;
+    flex-basis: 58.333333%;
+  }
+  .MuiGrid-grid-md-8 {
+    flex-grow: 0;
+    max-width: 66.666667%;
+    flex-basis: 66.666667%;
+  }
+  .MuiGrid-grid-md-9 {
+    flex-grow: 0;
+    max-width: 75%;
+    flex-basis: 75%;
+  }
+  .MuiGrid-grid-md-10 {
+    flex-grow: 0;
+    max-width: 83.333333%;
+    flex-basis: 83.333333%;
+  }
+  .MuiGrid-grid-md-11 {
+    flex-grow: 0;
+    max-width: 91.666667%;
+    flex-basis: 91.666667%;
+  }
+  .MuiGrid-grid-md-12 {
+    flex-grow: 0;
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+}
+@media (min-width:1280px) {
+  .MuiGrid-grid-lg-auto {
+    flex-grow: 0;
+    max-width: none;
+    flex-basis: auto;
+  }
+  .MuiGrid-grid-lg-true {
+    flex-grow: 1;
+    max-width: 100%;
+    flex-basis: 0;
+  }
+  .MuiGrid-grid-lg-1 {
+    flex-grow: 0;
+    max-width: 8.333333%;
+    flex-basis: 8.333333%;
+  }
+  .MuiGrid-grid-lg-2 {
+    flex-grow: 0;
+    max-width: 16.666667%;
+    flex-basis: 16.666667%;
+  }
+  .MuiGrid-grid-lg-3 {
+    flex-grow: 0;
+    max-width: 25%;
+    flex-basis: 25%;
+  }
+  .MuiGrid-grid-lg-4 {
+    flex-grow: 0;
+    max-width: 33.333333%;
+    flex-basis: 33.333333%;
+  }
+  .MuiGrid-grid-lg-5 {
+    flex-grow: 0;
+    max-width: 41.666667%;
+    flex-basis: 41.666667%;
+  }
+  .MuiGrid-grid-lg-6 {
+    flex-grow: 0;
+    max-width: 50%;
+    flex-basis: 50%;
+  }
+  .MuiGrid-grid-lg-7 {
+    flex-grow: 0;
+    max-width: 58.333333%;
+    flex-basis: 58.333333%;
+  }
+  .MuiGrid-grid-lg-8 {
+    flex-grow: 0;
+    max-width: 66.666667%;
+    flex-basis: 66.666667%;
+  }
+  .MuiGrid-grid-lg-9 {
+    flex-grow: 0;
+    max-width: 75%;
+    flex-basis: 75%;
+  }
+  .MuiGrid-grid-lg-10 {
+    flex-grow: 0;
+    max-width: 83.333333%;
+    flex-basis: 83.333333%;
+  }
+  .MuiGrid-grid-lg-11 {
+    flex-grow: 0;
+    max-width: 91.666667%;
+    flex-basis: 91.666667%;
+  }
+  .MuiGrid-grid-lg-12 {
+    flex-grow: 0;
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+}
+@media (min-width:1920px) {
+  .MuiGrid-grid-xl-auto {
+    flex-grow: 0;
+    max-width: none;
+    flex-basis: auto;
+  }
+  .MuiGrid-grid-xl-true {
+    flex-grow: 1;
+    max-width: 100%;
+    flex-basis: 0;
+  }
+  .MuiGrid-grid-xl-1 {
+    flex-grow: 0;
+    max-width: 8.333333%;
+    flex-basis: 8.333333%;
+  }
+  .MuiGrid-grid-xl-2 {
+    flex-grow: 0;
+    max-width: 16.666667%;
+    flex-basis: 16.666667%;
+  }
+  .MuiGrid-grid-xl-3 {
+    flex-grow: 0;
+    max-width: 25%;
+    flex-basis: 25%;
+  }
+  .MuiGrid-grid-xl-4 {
+    flex-grow: 0;
+    max-width: 33.333333%;
+    flex-basis: 33.333333%;
+  }
+  .MuiGrid-grid-xl-5 {
+    flex-grow: 0;
+    max-width: 41.666667%;
+    flex-basis: 41.666667%;
+  }
+  .MuiGrid-grid-xl-6 {
+    flex-grow: 0;
+    max-width: 50%;
+    flex-basis: 50%;
+  }
+  .MuiGrid-grid-xl-7 {
+    flex-grow: 0;
+    max-width: 58.333333%;
+    flex-basis: 58.333333%;
+  }
+  .MuiGrid-grid-xl-8 {
+    flex-grow: 0;
+    max-width: 66.666667%;
+    flex-basis: 66.666667%;
+  }
+  .MuiGrid-grid-xl-9 {
+    flex-grow: 0;
+    max-width: 75%;
+    flex-basis: 75%;
+  }
+  .MuiGrid-grid-xl-10 {
+    flex-grow: 0;
+    max-width: 83.333333%;
+    flex-basis: 83.333333%;
+  }
+  .MuiGrid-grid-xl-11 {
+    flex-grow: 0;
+    max-width: 91.666667%;
+    flex-basis: 91.666667%;
+  }
+  .MuiGrid-grid-xl-12 {
+    flex-grow: 0;
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+}
+</style><style data-jss="" data-meta="MuiBox">
+
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiTypography">
+.MuiTypography-root {
+  margin: 0;
+}
+.MuiTypography-body2 {
+  font-size: 0.875rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 1.43;
+  letter-spacing: 0.01071em;
+}
+.MuiTypography-body1 {
+  font-size: 1rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.00938em;
+}
+.MuiTypography-caption {
+  font-size: 0.75rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 1.66;
+  letter-spacing: 0.03333em;
+}
+.MuiTypography-button {
+  font-size: 0.875rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 500;
+  line-height: 1.75;
+  letter-spacing: 0.02857em;
+  text-transform: uppercase;
+}
+.MuiTypography-h1 {
+  font-size: 6rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 300;
+  line-height: 1.167;
+  letter-spacing: -0.01562em;
+}
+.MuiTypography-h2 {
+  font-size: 3.75rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 300;
+  line-height: 1.2;
+  letter-spacing: -0.00833em;
+}
+.MuiTypography-h3 {
+  font-size: 3rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 1.167;
+  letter-spacing: 0em;
+}
+.MuiTypography-h4 {
+  font-size: 2.125rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 1.235;
+  letter-spacing: 0.00735em;
+}
+.MuiTypography-h5 {
+  font-size: 1.5rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 1.334;
+  letter-spacing: 0em;
+}
+.MuiTypography-h6 {
+  font-size: 1.25rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 500;
+  line-height: 1.6;
+  letter-spacing: 0.0075em;
+}
+.MuiTypography-subtitle1 {
+  font-size: 1rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 1.75;
+  letter-spacing: 0.00938em;
+}
+.MuiTypography-subtitle2 {
+  font-size: 0.875rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 500;
+  line-height: 1.57;
+  letter-spacing: 0.00714em;
+}
+.MuiTypography-overline {
+  font-size: 0.75rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 2.66;
+  letter-spacing: 0.08333em;
+  text-transform: uppercase;
+}
+.MuiTypography-srOnly {
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+}
+.MuiTypography-alignLeft {
+  text-align: left;
+}
+.MuiTypography-alignCenter {
+  text-align: center;
+}
+.MuiTypography-alignRight {
+  text-align: right;
+}
+.MuiTypography-alignJustify {
+  text-align: justify;
+}
+.MuiTypography-noWrap {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.MuiTypography-gutterBottom {
+  margin-bottom: 0.35em;
+}
+.MuiTypography-paragraph {
+  margin-bottom: 16px;
+}
+.MuiTypography-colorInherit {
+  color: inherit;
+}
+.MuiTypography-colorPrimary {
+  color: #1675de;
+}
+.MuiTypography-colorSecondary {
+  color: #f50057;
+}
+.MuiTypography-colorTextPrimary {
+  color: rgba(0, 0, 0, 0.87);
+}
+.MuiTypography-colorTextSecondary {
+  color: rgba(0, 0, 0, 0.54);
+}
+.MuiTypography-colorError {
+  color: #f44336;
+}
+.MuiTypography-displayInline {
+  display: inline;
+}
+.MuiTypography-displayBlock {
+  display: block;
+}
+</style><style data-jss="" data-meta="MuiButtonBase">
+.MuiButtonBase-root {
+  color: inherit;
+  border: 0;
+  cursor: pointer;
+  margin: 0;
+  display: inline-flex;
+  outline: 0;
+  padding: 0;
+  position: relative;
+  align-items: center;
+  user-select: none;
+  border-radius: 0;
+  vertical-align: middle;
+  -moz-appearance: none;
+  justify-content: center;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.MuiButtonBase-root::-moz-focus-inner {
+  border-style: none;
+}
+.MuiButtonBase-root.Mui-disabled {
+  cursor: default;
+  pointer-events: none;
+}
+@media print {
+  .MuiButtonBase-root {
+    color-adjust: exact;
+  }
+}
+</style><style data-jss="" data-meta="makeStyles">
+.jss10 {
+  flex-grow: 1;
+}
+.jss11 {
+  top: 0;
+  right: 0;
+  margin: 15px;
+  display: flex;
+  z-index: 1;
+  position: absolute;
+}
+.jss12 {
+  display: flex;
+}
+.jss13 {
+  display: flex;
+  margin-right: 15px;
+}
+.jss14 {
+  width: 30px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+}
+</style><style data-jss="" data-meta="MuiContainer">
+.MuiContainer-root {
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+@media (min-width:600px) {
+  .MuiContainer-root {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+.MuiContainer-disableGutters {
+  padding-left: 0;
+  padding-right: 0;
+}
+@media (min-width:600px) {
+  .MuiContainer-fixed {
+    max-width: 600px;
+  }
+}
+@media (min-width:960px) {
+  .MuiContainer-fixed {
+    max-width: 960px;
+  }
+}
+@media (min-width:1280px) {
+  .MuiContainer-fixed {
+    max-width: 1280px;
+  }
+}
+@media (min-width:1920px) {
+  .MuiContainer-fixed {
+    max-width: 1920px;
+  }
+}
+@media (min-width:0px) {
+  .MuiContainer-maxWidthXs {
+    max-width: 444px;
+  }
+}
+@media (min-width:600px) {
+  .MuiContainer-maxWidthSm {
+    max-width: 600px;
+  }
+}
+@media (min-width:960px) {
+  .MuiContainer-maxWidthMd {
+    max-width: 960px;
+  }
+}
+@media (min-width:1280px) {
+  .MuiContainer-maxWidthLg {
+    max-width: 1280px;
+  }
+}
+@media (min-width:1920px) {
+  .MuiContainer-maxWidthXl {
+    max-width: 1920px;
+  }
+}
+</style><style data-jss="" data-meta="makeStyles">
+.jss5 {
+  padding: 0;
+  position: relative;
+  flex-grow: 1;
+  background-color: #fff;
+}
+</style><style data-jss="" data-meta="makeStyles">
+.jss1 {
+  flex-grow: 1;
+}
+.jss2 {
+  color: #fff;
+  min-height: calc(100vh - 60.5px);
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  background-color: #121212;
+}
+.jss3 {
+  padding: 15px 15px;
+}
+</style><style data-jss="" data-meta="MuiSvgIcon">
+.MuiSvgIcon-root {
+  fill: currentColor;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  font-size: 1.5rem;
+  transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  flex-shrink: 0;
+  user-select: none;
+}
+.MuiSvgIcon-colorPrimary {
+  color: #1675de;
+}
+.MuiSvgIcon-colorSecondary {
+  color: #f50057;
+}
+.MuiSvgIcon-colorAction {
+  color: rgba(0, 0, 0, 0.54);
+}
+.MuiSvgIcon-colorError {
+  color: #f44336;
+}
+.MuiSvgIcon-colorDisabled {
+  color: rgba(0, 0, 0, 0.26);
+}
+.MuiSvgIcon-fontSizeInherit {
+  font-size: inherit;
+}
+.MuiSvgIcon-fontSizeSmall {
+  font-size: 1.25rem;
+}
+.MuiSvgIcon-fontSizeLarge {
+  font-size: 2.1875rem;
+}
+</style><style data-jss="" data-meta="MuiLink">
+.MuiLink-underlineNone {
+  text-decoration: none;
+}
+.MuiLink-underlineHover {
+  text-decoration: none;
+}
+.MuiLink-underlineHover:hover {
+  text-decoration: underline;
+}
+.MuiLink-underlineAlways {
+  text-decoration: underline;
+}
+.MuiLink-button {
+  border: 0;
+  cursor: pointer;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  position: relative;
+  user-select: none;
+  border-radius: 0;
+  vertical-align: middle;
+  -moz-appearance: none;
+  background-color: transparent;
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.MuiLink-button::-moz-focus-inner {
+  border-style: none;
+}
+.MuiLink-button.Mui-focusVisible {
+  outline: auto;
+}
+</style><style data-jss="" data-meta="makeStyles">
+.jss15 {
+  padding: 10px;
+  flex-grow: 1;
+  border-color: #e0e0e0;
+  border-style: solid;
+  border-width: 0;
+  background-color: #fafafa;
+  border-top-width: 1px;
+}
+.jss16 {
+  color: #212121;
+  text-decoration: none;
+}
+.jss16:hover {
+  color: #1675de;
+}
+.jss17 {
+  padding: 10px 10px 10px 10px;
+}
+@media (max-width:959.95px) {
+  .jss18 {
+    justify-content: center;
+  }
+}
+.jss19 {
+  padding: 0;
+  padding-left: 3px;
+}
+.jss20 {
+  color: #303030;
+}
+.jss20:hover {
+  color: #1675de;
+}
+</style><link rel="alternate" href="https://bere.al/fr/privacy" hreflang="fr" data-react-helmet="true"><link rel="canonical" href="https://bere.al/en/privacy" data-react-helmet="true"><meta name="description" content="Every day at a different time, everyone is notified simultaneously to capture and share a Photo in 2 Minutes." data-react-helmet="true"><meta itemprop="description" content="Every day at a different time, everyone is notified simultaneously to capture and share a Photo in 2 Minutes." data-react-helmet="true"><meta name="twitter:description" content="Every day at a different time, everyone is notified simultaneously to capture and share a Photo in 2 Minutes." data-react-helmet="true"><meta name="og:description" content="Every day at a different time, everyone is notified simultaneously to capture and share a Photo in 2 Minutes." data-react-helmet="true"><meta property="og:video:url" content="https://storage.bere.al/assets/share/bereal-instagram-story-en.mp4" data-react-helmet="true"><meta property="og:title" content="BeReal. Your Friends for Real." data-react-helmet="true"><meta property="twitter:title" content="BeReal. Your Friends for Real." data-react-helmet="true"><meta itemprop="name" content="BeReal. Your Friends for Real." data-react-helmet="true"></head><body><div id="root"><div class="MuiBox-root jss4 jss1"><div class="MuiContainer-root jss5 MuiContainer-maxWidthMd"><div class="MuiBox-root jss8 jss7" style="padding:15px"><div class="MuiBox-root jss9" style="width:120px"><a href="/en"><img src="/images/logos/bereal-title.png" alt="Logo BeReal" width="120px"></a></div></div><div class="jss11"><button class="MuiButtonBase-root jss12" tabindex="0" type="button"><img class="jss14" src="/images/flags/en.svg" alt="EN"></button></div></div><div class="jss2"><div class="MuiContainer-root jss3 MuiContainer-maxWidthMd"><style type="text/css">
+            .c10, .c6 { font-weight: bold; }
+            .c4 { text-decoration: underline; }
+            .c15 { font-weight: bold; text-align: center; }
+             a { color: rgb(86, 160, 243); }
+             ol:not(.right) > li { list-style-type:none; }
+             td {
+               border: solid 1px white;
+               border-collapse: collapse;
+               padding: 0px 10px;
+             }
+             tr:first-child td {
+               text-align: center;
+             }
+             table {
+              border-spacing: 0;
+              border-collapse: collapse;
+            }
+            * { line-height: 1.25; }
+            div#table-wrapper {
+              overflow: scroll;
+            }
+          </style><div><p class="c15"><span class="c6 c17 c3">PRIVACY POLICY</span></p><p class="c15"><span class="c6 c3 c17">Update Date: <!-- -->2 août 2021</span></p><p class="c5"><span class="c2 c17"></span></p></div><p class="c8"><span class="c0">Welcome to BeReal! </span></p><p class="c8"><span class="c0">We are committed to protecting the privacy of the personal information you provide to us when using BeReal and we value your privacy. That's why we have created this document (the “Privacy Policy”). It applies to all Users of the Platform.</span></p><p class="c8"><span>We invite you to carefully read our Privacy Policy and to contact us for any question about the collection and processing of your Personal Data at the following e-mail address:<!-- --> </span><span class="c4 c16"><a class="c11" href="/cdn-cgi/l/email-protection#92f1fdfce6f3f1e6d2f0f7e0f7bcf3fe"><span class="__cf_email__" data-cfemail="6a0905041e0b091e2a080f180f440b06">[email&#160;protected]</span></a></span><span class="c0">. &nbsp;</span></p><p class="c8"><span class="c0">Please note that the Privacy Policy is an integral part of the General Terms of Use and that the definitions set forth therein are applicable to this document.</span></p><p class="c8"><span class="c9 c6">1. Scope and Application</span></p><p class="c8"><span class="c0">The Privacy Policy details the Personal Data collected and processed when using our Application, the purposes for which Users' Personal Data is processed, how BeReal uses it, and the features offered to allow Users to access and update their Personal Data.</span></p><p class="c8"><span class="c0">Personal Data is defined as any information relating to a natural person who can be identified, directly or indirectly. It is for example: the name, first name, email and postal address of a physical person, his image on a photograph or a video, an IP address, a location data, etc.</span></p><p class="c8"><span class="c9 c6">2. Acceptance and Modification of Our Privacy Policy</span></p><p class="c8"><span class="c0">By accepting the Terms of Use, you confirm that you have read and accept without limitation or qualification this Privacy Policy, which forms an integral part of the ToU. In case of disagreement with one or more of its conditions, the User is free not to use or no longer to use our services (especially in case of modification of the terms of the Privacy Policy).</span></p><p class="c8"><span>This Privacy Policy may change from time to time, but any reduction in your rights will not be enforced without your consent. BeReal will post new versions of the Privacy Policy on the Application and at<!-- --> </span><span class="c4 c16"><a class="c11" href="https://www.google.com/url?q=https://bere.al/fr/privacy&amp;sa=D&amp;source=editors&amp;ust=1625506265453000&amp;usg=AOvVaw2G-TUOLYL7X3XUkO4R3wow">https://bere.al/fr/privacy</a></span><span class="c0">&nbsp;and will alert Users by means of a pop-up window that will appear upon opening the Application.</span></p><p class="c8"><span>In general, the Privacy Policy is always easily accessible at<!-- --> </span><span class="c4 c16"><a class="c11" href="https://www.google.com/url?q=https://bere.al/fr/privacy&amp;sa=D&amp;source=editors&amp;ust=1625506265453000&amp;usg=AOvVaw2G-TUOLYL7X3XUkO4R3wow">https://bere.al/fr/privacy</a></span><span class="c0">&nbsp;or from your User Account settings.</span></p><p class="c8"><span class="c9 c6">3. Identification of the Data Controller </span></p><p class="c8"><span class="c0">The processing of your Personal Data is subject to French law, including Law No. 78-17 of January 6, 1978 relating to computers, files and freedoms, as amended (known as the Data Protection Act) as well as the EU Regulation 2016/679 of April 27, 2016, known as the General Data Protection Regulation (GDPR).</span></p><p class="c8"><span class="c0">According to the regulations in force, BeReal is the Controller of the processing of your Personal Data.<!-- --> </span></p><p class="c8"><span class="c0">In this capacity, BeReal undertakes to comply with the legal provisions in force and to carry out a lawful, fair and transparent processing of Personal Data of Users. BeReal also guarantees to the Users that this processing is in accordance with the explicit and legitimate purposes determined in the Privacy Policy. The duration of processing does not exceed the time necessary for the purposes for which the Personal Data are collected and processed.<!-- --> </span></p><p class="c8"><span class="c9 c6">4. Categories of Personal Data Processed When Using the Application</span></p><p class="c8"><span class="c9 c6">a) Which Personal Data Are Processed? </span></p><p class="c8"><span class="c0">In order to provide access to the Platform to its Services, BeReal may collect several categories of Personal Data about you, for different purposes, legal bases for processing and different retention periods. We offer a summary of all this information in the table below.</span></p><p class="c8"><span class="c0">If you wish to know more about the Data collected and the purposes of processing you can also read the details below the following table.<!-- --> </span></p><a id="t.d893f62fba6c64ace2e89ed616af7f0168bfded6"></a><a id="t.0"></a><div id="table-wrapper"><table class="c30"><tbody><tr class="c28"><td class="c18" colspan="1" rowspan="1"><p class="c12"><span class="c9 c6">Purpose of the Processing</span></p></td><td class="c15" colspan="1" rowspan="1"><p class="c12"><span class="c9 c6">Personal Data Processed</span></p></td><td class="c10" colspan="1" rowspan="1"><p class="c12"><span class="c9 c6">Legal Ground for the Processing</span></p></td><td class="c10" colspan="1" rowspan="1"><p class="c12"><span class="c6 c9">Retention Period</span></p></td></tr><tr class="c26"><td class="c18" colspan="1" rowspan="2"><p class="c5"><span class="c0">Account creation and User identification - Account management</span></p></td><td class="c15" colspan="1" rowspan="1"><p class="c5"><span class="c0">Mandatory profile data (Name, date of birth, phone number, password)</span></p></td><td class="c10" colspan="1" rowspan="1"><p class="c5"><span>Performance of the contract between You and BeReal<!-- --> </span></p></td><td class="c10" colspan="1" rowspan="1"><p class="c5"><span class="c0">Duration of the use of the services increased by 3 years after the last connection to the service or until the request for removal</span></p></td></tr><tr class="c26"><td class="c15" colspan="1" rowspan="1"><p class="c5"><span class="c0">Optional profile data (biography, email address)</span></p></td><td class="c10" colspan="1" rowspan="1"><p class="c5"><span class="c0">Consent</span></p></td><td class="c10" colspan="1" rowspan="1"><p class="c5"><span class="c0">Duration of the use of the services increased by 3 years after the last connection to the service or until the withdrawal of consent</span></p></td></tr><tr class="c31"><td class="c18" colspan="1" rowspan="1"><p class="c5"><span class="c0">Purchase of paid features </span></p></td><td class="c15" colspan="1" rowspan="1"><p class="c5"><span class="c0">Transaction Data submitted by the Store<!-- --> </span></p></td><td class="c10" colspan="1" rowspan="1"><p class="c5"><span class="c0">Performance of the contract between You and BeReal &nbsp;</span></p></td><td class="c10" colspan="1" rowspan="1"><p class="c5"><span class="c0">Duration necessary for the execution of the transaction increased by the legal retention period for accounting purposes</span></p></td></tr><tr class="c24"><td class="c18" colspan="1" rowspan="2"><p class="c5"><span class="c0">Proper functioning of the Platform and its Services</span></p></td><td class="c15" colspan="1" rowspan="1"><p class="c5"><span class="c0">Data related to your activity on BeReal, Communications with BeReal, Data related to devices and equipment used</span></p></td><td class="c10" colspan="1" rowspan="1"><p class="c5"><span class="c0">Legitimate interests of the Data Controller</span></p></td><td class="c10" colspan="1" rowspan="1"><p class="c5"><span class="c0">2 years from collection date</span></p></td></tr><tr class="c24"><td class="c15" colspan="1" rowspan="1"><p class="c5"><span class="c0">Data sent by your phone's camera and photos stored on your phone, Geolocation Data<!-- --> </span></p></td><td class="c10" colspan="1" rowspan="1"><p class="c5"><span class="c0">Consent</span></p></td><td class="c10" colspan="1" rowspan="1"><p class="c5"><span class="c0">Duration of the use of the services increased by 3 years after the last connection or until the withdrawal of consent</span></p></td></tr><tr class="c25"><td class="c18" colspan="1" rowspan="1"><p class="c5"><span class="c0">Administrative management of the Platform, complaints and reports from Users, Moderation of content in accordance with our ToU</span></p></td><td class="c15" colspan="1" rowspan="1"><p class="c5"><span class="c0">Content Data, Communications with BeReal</span></p></td><td class="c10" colspan="1" rowspan="1"><p class="c5"><span class="c0">Legitimate interests of the Data Controller</span></p><p class="c5 c7"><span class="c0"></span></p></td><td class="c10" colspan="1" rowspan="1"><p class="c5"><span class="c0">Duration of the use of the services + applicable statutory limitation</span></p></td></tr><tr class="c24"><td class="c18" colspan="1" rowspan="1"><p class="c5"><span class="c0">Moderation of content in accordance with the law (prevention of illegal activities, fraud, cyber harassment, ...)</span></p></td><td class="c15" colspan="1" rowspan="1"><p class="c5"><span class="c0">Content Data, Data about your activity on BeReal</span></p></td><td class="c10" colspan="1" rowspan="1"><p class="c5"><span class="c0">Compliance with our legal obligations</span></p></td><td class="c10" colspan="1" rowspan="1"><p class="c5"><span class="c0">1 year from collection for metadata<!-- --> </span></p><p class="c5"><span class="c0">5 years (statutory limitation) for data retained for dispute prevention purposes</span></p></td></tr><tr class="c27"><td class="c18" colspan="1" rowspan="2"><p class="c5"><span class="c0">Connection with other Users </span></p></td><td class="c15" colspan="1" rowspan="1"><p class="c5"><span class="c0">Contact data from your smartphone</span></p></td><td class="c10" colspan="1" rowspan="2"><p class="c5"><span class="c0">Consent</span></p></td><td class="c10" colspan="1" rowspan="2"><p class="c5"><span class="c0">Duration of use of services or until withdrawal of consent</span></p></td></tr><tr class="c27"><td class="c15" colspan="1" rowspan="1"><p class="c5"><span class="c0">Geolocation</span></p></td></tr></tbody></table></div><p class="c8 c7"><span class="c0"></span></p><ul class="c3 lst-kix_list_6-0 start"><li class="c8 c13 li-bullet-0"><span class="c4 c6">Details On The Personal Data Collected and Processed</span><span class="c0">&nbsp;</span></li></ul><p class="c8"><span class="c0">BeReal collects two different types of Data:<!-- --> </span></p><p class="c7 c20"><span class="c0"></span></p><ol class="c3 lst-kix_list_2-0 start" start="1"><li class="c8 c17 li-bullet-1">(i)<!-- --> <span class="c4">Data that you provide to us</span><span class="c21 c4 c19">&nbsp;</span></li></ol><p class="c8"><span class="c6">Profile Data</span><span class="c0">: This is the Data that you are required to enter when you sign in: your phone number, first or last name, date of birth, username, and password.<!-- --> </span></p><p class="c8"><span class="c0">You can also fill in optional Data: your biography, email address, profile picture.</span></p><p class="c8"><span class="c6">Communications with BeReal&nbsp;</span><span class="c0">: When you report a problem with the Platform (inappropriate content, bugs, errors), respond to a survey about the quality of our Services, request assistance, or make a request to exercise your rights, we record the information you agree to share with us or that we need to respond to your request.<!-- --> </span></p><ol class="c3 lst-kix_list_2-0" start="2"><li class="c8 c17 li-bullet-1">(ii)<!-- --> <span class="c4">Data we collect when you use our Services</span><span class="c21 c4 c19">&nbsp;</span></li></ol><p class="c8"><span class="c6">Data related to your activity on BeReal:</span><span class="c0">&nbsp;this notably includes: </span></p><ul class="c3 lst-kix_list_3-0 start"><li class="c8 c13 li-bullet-0"><span class="c0">Connection Data: IP address, date of registration, date of your last connection;<!-- --> </span></li><li class="c8 c13 li-bullet-0"><span class="c0">Data about how you interact with other Users: the number of friends and invitations, comments left on Content shared by your friends, the friends with whom you interact the most;<!-- --> </span></li><li class="c8 c13 li-bullet-0"><span class="c0">Data about how you use our Services, including use of RealMojis, time of posting, number of late BeReal posts, etc.</span></li></ul><p class="c8"><span class="c6">Content Data:</span><span class="c0">&nbsp;We collect content that you create through our Services such as photos, RealMojis and comments. Note that Users who view your Content can always take a copy or screenshot of it. Therefore, we strongly recommend that you do not post or send to a friend any Content that you do not want to share.</span></p><p class="c8"><span class="c6">Geolocation Data</span><span class="c0">: For each photo, the Platform offers you the possibility to share, with your friends, your exact location or, when the photo is published publicly, an approximate location. We also offer you to locate your friends precisely on a map in relation to your position. Use of the Service requires your consent to the collection of Geolocation Data.<!-- --> </span></p><p class="c8"><span class="c0">If you do not want BeReal to collect your Geolocation Data, you may refuse to give the Platform permission to access your location when you first open the application. If you wish to withdraw your consent after accepting such processing, you must change the permissions given to the application in the system settings of your phone.<!-- --> </span></p><p class="c8"><span class="c6">Phonebook Data</span><span class="c0">: With your consent, BeReal may access your phone book to identify your contacts already registered on BeReal or so that you can invite your friends to register on the Platform. We never access your contact list without your permission.<!-- --> </span></p><p class="c8"><span class="c6">Device and Equipment Data:</span><span class="c0">&nbsp;We collect information about and from the devices and equipment you use to access BeReal. This includes your IP address, device type, application crashes, operating system version, language used. &nbsp;</span></p><p class="c8"><span class="c6">Cameras and Photos:</span><span class="c0">&nbsp;Most of our Services require that you allow us to collect Data from your phone's camera and photo library (i.e. send and upload photos). If you refuse to allow us access to your camera or photo library, you may receive photos from and contact other Users, but you will not be able to take, upload and share your own photos.<!-- --> </span></p><ul class="c3 lst-kix_list_6-0"><li class="c8 c13 li-bullet-0"><span class="c4 c6">Details of the legal basis and purposes of the processing</span></li></ul><p class="c8"><span class="c0">We process the above-described Data in accordance with the requirements of the GDPR for various purposes on the bases of:</span></p><ul class="c3 lst-kix_list_3-0"><li class="c22 c13 li-bullet-0"><span class="c6">Contract performance</span><span>&nbsp;where the processing enables BeReal to provide the Services as described in the Terms of Service. This includes:</span><span class="c0">&nbsp;</span></li><ul class="c3 lst-kix_list_3-1 start"><li class="c1 li-bullet-0"><span class="c0">Access to the Platform and related services (profile visibility, transmission of comments and shared content, suggestion of friends, RealMojis);<!-- --> </span></li><li class="c1 li-bullet-0"><span class="c0">The proper functioning of Users' accounts;</span></li><li class="c1 li-bullet-0"><span class="c0">Notifications that it is time to take a photo;</span></li><li class="c1 li-bullet-0"><span class="c0">Notification of changes to our services;<!-- --> </span></li><li class="c1 li-bullet-0"><span class="c0">User support services; </span></li><li class="c1 li-bullet-0"><span class="c0">Administration of the Platform, repair and correction of bugs, updates;<!-- --> </span></li><li class="c1 li-bullet-0"><span>The provision of services for sharing User Content and interacting with other Users;</span><span class="c19">&nbsp;</span></li></ul></ul><ul class="c3 lst-kix_list_3-0"><li class="c13 c22 li-bullet-0"><span>Our </span><span class="c6">legitimate interests</span><span>&nbsp;where the processing allows us to provide you with an efficient and dynamic Platform. This includes:</span><span class="c0">&nbsp;</span></li><ul class="c3 lst-kix_list_3-1 start"><li class="c1 li-bullet-0"><span class="c0">Monitoring User Content, comments, messages and associated metadata for administrative purposes and to verify their compliance with our Terms of Service;<!-- --> </span></li><li class="c1 li-bullet-0"><span class="c0">Verifying the compatibility of the content presentation methods with respect to the type of device used;<!-- --> </span></li><li class="c1 li-bullet-0"><span class="c0">The understanding of the modalities of use of the Platform by the Users for the purposes of improvement, development and commercial promotion of the Application;<!-- --> </span></li><li class="c1 li-bullet-0"><span class="c0">Verifying the stability and security of the Platform;<!-- --> </span></li><li class="c1 li-bullet-0"><span class="c0">Identifying criminal activities, fraudulent behavior, misuse of the Platform;<!-- --> </span></li><li class="c1 li-bullet-0"><span>Sending surveys and requesting feedback in order to improve the Services offered.</span><span class="c19">&nbsp;</span></li></ul></ul><ul class="c3 lst-kix_list_3-0"><li class="c22 c13 li-bullet-0"><span class="c6">Compliance with our legal obligations</span><span>&nbsp;where the processing of Data is aimed at preventing and combating abusive, fraudulent, and illegal activities.</span></li><li class="c22 c13 li-bullet-0"><span>Your </span><span class="c6">consent </span><span>where the processing relates to geolocation or phonebook Data. This includes:</span><span class="c0">&nbsp;</span></li><ul class="c3 lst-kix_list_3-1 start"><li class="c1 li-bullet-0"><span class="c0">Geolocation for the purpose of connecting the User with friends who are geographically close to the User's location;<!-- --> </span></li><li class="c1 li-bullet-0"><span class="c0">Geolocation for the purpose of indicating where User content was created;<!-- --> </span></li><li class="c1 li-bullet-0"><span>Access to the phone book to identify Users of our Services that you know</span><span class="c19">. </span></li></ul></ul><p class="c8"><span class="c9 c6">b) Cookies</span></p><p class="c8"><span class="c0">A “cookie” (or “tracker”) is a connection indicator that designates a text file that may be recorded in a dedicated space on the hard disk of your terminal (computer, tablet, or smartphone), when you consult a service available online. A cookie allows its issuer to identify the terminal in which it is stored, during the period of validity or storage of the cookie. The cookie does not identify the User as such; it is used to record your browsing information on the Platform.</span></p><p class="c8"><span class="c0">When you connect to the Platform, information relating to your browsing is likely to be recorded in “Cookies” files installed on your terminal, according to the choices you may have expressed concerning cookies and which can be modified at any time. These cookies allow personalized navigation and are also used for analytical purposes (audience measurement).</span></p><p class="c8"><span class="c0">The existence of cookies and their purpose(s) will be indicated to you when you connect to the Platform, by the presence of an information banner placed at the bottom or top of the home page.</span></p><p class="c8"><span class="c0">The deposit and reading of cookies on your terminal generally requires your prior consent, which, if applicable, is obtained by clicking on “I accept”. The consent given for the use of cookies is valid for 13 months. After this period we will ask you to renew your agreement.</span></p><p class="c8"><span class="c0">In case of refusal of cookies, objection to those stored by default, or deletion of the cookies, the User is informed that he can no longer benefit from a number of features that are nevertheless necessary to navigate in some areas of the Platform. Where appropriate, BeReal disclaims any responsibility for the consequences related to the degraded operation of its Services resulting from the inability of BeReal to record or view the cookies necessary for the proper functioning of the Platform and that you have refused or deleted.</span></p><p class="c8"><span class="c0">Finally, it is important to distinguish the cookies issued on the Platform from those issued by third parties. In this respect, we inform you that cookies may be placed from time to time on certain pages of the Platform by third parties (advertisers or others). Please be aware that BeReal has no control over the use of cookies by third parties.</span></p><p class="c8"><span class="c0">BeReal uses the following cookies and trackers:</span></p><ul class="c3 lst-kix_list_1-0 start"><li class="c22 c13 li-bullet-0"><span class="c4">On the Application:</span></li><ul class="c3 lst-kix_list_1-1 start"><li class="c1 li-bullet-0"><span class="c0">Cookies that are necessary for you to use the Services, such as allowing you to stay logged into your account;</span></li><li class="c1 li-bullet-0"><span class="c0">Cookies analyzing your use of the Application to generate statistical reports, without identifying you:</span></li><ul class="c3 lst-kix_list_1-2 start"><li class="c22 c29 li-bullet-0"><span class="c0">Google Analytics</span></li><li class="c22 c29 li-bullet-0"><span class="c0">Amplitude</span></li></ul></ul><ul class="c3 lst-kix_list_1-1"><li class="c1 li-bullet-0"><span class="c0">Cookies necessary for the proper and efficient operation of the Application, for example by saving your user preferences.</span></li></ul></ul><p class="c22 c7"><span class="c0"></span></p><p class="c22 c7"><span class="c4 c19 c21"></span></p><ul class="c3 lst-kix_list_1-0"><li class="c22 c13 li-bullet-0"><span class="c4">On the website </span><span class="c4 c16"><a class="c11" href="https://www.google.com/url?q=http://www.bere.al&amp;sa=D&amp;source=editors&amp;ust=1625506265475000&amp;usg=AOvVaw2jXyuNGG5o2QSJqdvVfaL0">www.bere.al</a></span><span class="c4">:</span></li><ul class="c3 lst-kix_list_1-1 start"><li class="c1 li-bullet-0"><span class="c0">cookies analyzing your use of the website to generate statistical reports, without identifying you:</span></li><ul class="c3 lst-kix_list_1-2 start"><li class="c22 c29 li-bullet-0"><span class="c0">Google Analytics</span></li></ul></ul></ul><p class="c22 c7"><span class="c21 c4 c19"></span></p><p class="c8"><span class="c9 c6">5. Conditions of use of Personal Data</span></p><p class="c8"><span class="c0">Any use of Personal Data for purposes other than those set out above in our Privacy Policy will require the prior express consent of the User.</span></p><p class="c8"><span class="c0">BeReal undertakes to keep the Personal Data of the Users only for as long as is strictly necessary for the declared processing of the data for the above-mentioned purposes or for the exercise and establishment of its legal rights, and in any case within the limits imposed by the law.<!-- --> </span></p><p class="c8"><span class="c0">BeReal undertakes to delete the Personal Data from its databases at the end of these various periods. In case of request for deletion of your account, it will be effective within 30 (thirty) days. All of our backups are automatically deleted after 90 (ninety) days.</span></p><p class="c8"><span class="c0">However, BeReal may retain certain information for a period of time after the closure of the User's personal account in order to meet legal, accounting and tax obligations and, in particular, to prevent possible unlawful behavior after the deletion of a User Account (reuse of an old account by a third party). In this case, the Personal Data will be deactivated and will no longer be accessible online.</span></p><p class="c8"><span class="c9 c6">6. Sharing of Information with Third Parties</span></p><p class="c8"><span class="c9 c6">a) No disclosure of Personal Information to third parties</span></p><p class="c8"><span class="c0">With the exception of Content that you have licensed to us in accordance with the Terms of Use, BeReal will not disclose to third parties any information or Personal Data provided by Users. This information and Personal Data is used exclusively by BeReal's internal services and will not be transferred or sold to third parties without your prior express consent.</span></p><p class="c8"><span class="c9 c6">b) Communication of Personal Data for external processing purposes</span></p><p class="c8"><span class="c0">Your information and Personal Data may, where appropriate, be transmitted to third party contractors involved in the provision of the Services (technical and hosting providers, sending notifications, publishing and sharing content, user tracking and satisfaction surveys, management of security incidents or fraudulent activity, etc.).</span></p><p class="c8"><span class="c0">BeReal undertakes to communicate Users' Personal Data only to authorized and trusted service providers, who process it on our behalf, according to our instructions, in accordance with this Privacy Policy and in compliance with any other appropriate security and confidentiality measures.</span></p><p class="c8"><span class="c9 c6">c) Disclosure of Personal Data outside the European Union<!-- --> </span></p><p class="c8"><span class="c0">Processing Personal Data as described in the Privacy Policy may involve transferring your Data to one or more other countries, inside or outside the European Economic Area, including the United States.<!-- --> </span></p><p class="c8"><span class="c0">Where applicable, we use standard contractual clauses and/or other mechanisms approved by the European Commission to maintain a level of protection for your Personal Data equivalent to that guaranteed by the GDPR.</span></p><p class="c8"><span class="c9 c6">d) Disclosure for Legal and Statutory Purposes</span></p><p class="c8"><span class="c0">Information and Personal Data may also be disclosed to a third party if BeReal is required to do so by law, regulation, or court order, or if such disclosure is necessary for the purposes of an investigation, court order or legal proceeding, either domestically or abroad.</span></p><p class="c8"><span class="c0">In addition, BeReal may share information and Personal Data with third party companies, consultants or individuals in order to:</span></p><ul class="c3 lst-kix_list_8-0 start"><li class="c8 c13 li-bullet-0"><span class="c0">Enforce the Privacy Policy and the General Terms of Use of the Application in force, including to ascertain any breach thereof;</span></li><li class="c8 c13 li-bullet-0"><span class="c0">Protect against any infringement of the rights, property or safety of its users, in accordance with and in compliance with the law.</span></li></ul><p class="c8"><span class="c9 c6">7. Security of Personal Data</span></p><p class="c8"><span class="c0">We implement technical and organizational measures, such as encryption of Data or restriction of access to authorized personnel, to ensure that your Personal Data is processed securely in accordance with the Privacy Policy. However, the transmission of information via the Internet involves irreducible risks that do not allow us to guarantee perfect security of the information transmitted via the Platform. Consequently, any transmission of Personal Data is made at your own risk.<!-- --> </span></p><p class="c8"><span class="c9 c6">8. Respect of the rights of the Platform Users</span></p><p class="c8"><span class="c0">You have certain rights regarding your Personal Data, as follows:<!-- --> </span></p><ol class="c3 lst-kix_list_7-0 start right" start="1"><li class="c8 c13 li-bullet-0"><span class="c0">Right of access: it allows you to access free of charge the Personal Data collected about you.<!-- --> </span></li><li class="c8 c13 li-bullet-0"><span class="c0">Right of rectification: it allows you to update or correct the accuracy of your Data. You can exercise this right directly from your account settings.<!-- --> </span></li><li class="c8 c13 li-bullet-0"><span class="c0">Right of deletion: it can be exercised when the processing of Personal Data is no longer necessary for the purposes for which they were collected or, if applicable, when you withdraw your consent to the processing.</span></li><li class="c8 c13 li-bullet-0"><span class="c0">Right to object to the collection and processing of all or part of your Personal Data: this right is not absolute and applies only to Personal Data collected for commercial prospecting purposes, including profiling when it is linked to commercial prospecting activities. When you choose to object to such processing we ask you to indicate the reasons for your objection so that we can balance our legitimate interests against your request.<!-- --> </span></li><li class="c8 c13 li-bullet-0"><span class="c0">Right to limit the processing of Personal Data. This right is not absolute, and can only be applied when:<!-- --> </span></li><ul class="c3 lst-kix_list_5-0 start"><li class="c1 li-bullet-0"><span class="c0">a request for rectification has been made under the right of rectification described in 8.2. You may then request that the processing of your Personal Data be stopped for the time necessary to verify the accuracy of the requested rectification.</span></li><li class="c1 li-bullet-0"><span class="c0">you wish to object to the deletion of your Personal Data whose processing was unlawful;</span></li><li class="c1 li-bullet-0"><span class="c0">BeReal no longer needs the Personal Data in accordance with the purposes of processing but they are still necessary for the establishment, exercise or defense of legal claims;</span></li><li class="c8 c34 li-bullet-0"><span class="c0">You wish to exercise your right to object as described in 8.4. You may then request that the processing of your Personal Data be stopped for the time necessary to balance our legitimate interests against your request.</span></li></ul></ol><p class="c8"><span class="c0">Before we can respond to a request to exercise one or more of your rights, we may ask you to confirm some of your Account information to verify your identity. In case of reasonable doubt, we may ask you for identification.<!-- --> </span></p><p class="c8"><span class="c9 c6">9. Information Regarding Children</span></p><p class="c8"><span class="c0">BeReal is not intended for children under the age of 13. If you believe that we have Personal Information about a child or that it has been collected from a child under the required age, you may report your concerns to us by reporting the content or the User Account.<!-- --> </span></p><p class="c8"><span class="c9 c6">10. Information About Users Located In the USA</span></p><p class="c8"><span class="c0">This clause is only valid and legally binding if you are a party to the BeReal Terms of Service. This clause regarding U.S. users, including California and Virginia residents, applies to Personal Information (as defined in applicable regulations) provided to BeReal by the User.<!-- --> </span></p><p class="c8"><span class="c0">In light of the California Consumer Privacy Protection Act of 2018 (“CCPA”), we are providing this information to you as a service provider required to process your Personal Information (as defined in the applicable law), to confirm that we have adequate contractual terms in place. The term “applicable law” refers to all laws, regulations, standards, regulatory guidance and self-regulatory guidelines that may apply in relation to the management of your Data. Applicable laws include, but are not limited to, the California Consumer Privacy Protection Act (Cal. Civ. Code §1798.100 - 1798.199), or the Virginia Consumer Data Protection Act (SB 1392).<!-- --> </span></p><p class="c8"><span class="c0">As a service provider, we will collect, hold, use, disclose and process your personal information only to fulfill our obligations to you under our agreement, for operational purposes previously stated in this Policy, to the exclusion of any other purpose.</span></p><p class="c8"><span class="c0">We will not sell your personal information or disclose your personal information for commercial purposes.<!-- --> </span></p><p class="c8"><span class="c0">We certify that we understand and comply with the restrictions and obligations set forth in Cal. Civ. Code § 1798.140(w)(2) as well as Va. SB 1392. In the event of any inconsistency or conflict between the terms and conditions of this clause and the TOS or Privacy Policy, the TOS or Privacy Policy shall govern with respect to Data of individuals in the European Economic Area.<!-- --> </span></p><p class="c8"><span class="c0">If you have any questions about the CCPA or other U.S. regulations at BeReal or to exercise your rights under them, you may contact us as set forth in Section 11.</span></p><p class="c8 c7"><span class="c0"></span></p><p class="c8"><span class="c9 c6">11. Contact</span></p><p class="c8"><span class="c0">You can exercise these rights at any time in one of two ways:</span></p><ul class="c3 lst-kix_list_4-0 start"><li class="c22 c13 li-bullet-0"><span class="c6">By mail to the following address</span><span class="c0">: BeReal, 30/32 Boulevard de Sébastopol 75004 ;<!-- --> </span></li><li class="c8 c13 li-bullet-0"><span class="c6">By e-mail to</span><span class="c0">: <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="4724282933262433072522352269262b">[email&#160;protected]</a> </span></li></ul><p class="c8"><span class="c0">BeReal undertakes to respond to your requests concerning the Privacy Policy or the exercise of your rights, as soon as possible and no later than the time limit set forth by applicable legislation.</span></p><p class="c8 c7"><span class="c9 c6"></span></p><div><p class="c2"><span class="c0"></span></p><p class="c5 c7 c23"><span class="c0"></span></p></div></div></div></div><div class="jss15"><div class="MuiContainer-root jss19 MuiContainer-maxWidthMd"><div class="MuiGrid-root MuiGrid-container"><div class="MuiGrid-root jss18 MuiGrid-container MuiGrid-item MuiGrid-grid-md-10"><div class="MuiGrid-root jss17 MuiGrid-item"><a class="MuiTypography-root jss16 MuiTypography-body1 MuiTypography-noWrap" href="/cdn-cgi/l/email-protection#e98a86879d888a9da98b8c9b8cc78885">Contact us</a></div><div class="MuiGrid-root jss17 MuiGrid-item"><a class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-root jss16 MuiTypography-body1 MuiTypography-noWrap MuiTypography-colorPrimary" href="https://help.bereal.com">Help</a></div><div class="MuiGrid-root jss17 MuiGrid-item"><a class="MuiTypography-root jss16 MuiTypography-body1 MuiTypography-noWrap" href="/en/terms">Terms</a></div><div class="MuiGrid-root jss17 MuiGrid-item"><a class="MuiTypography-root jss16 MuiTypography-body1 MuiTypography-noWrap" href="/en/privacy">Privacy Policy</a></div><div class="MuiGrid-root jss17 MuiGrid-item"><a class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-root jss16 MuiTypography-body1 MuiTypography-noWrap MuiTypography-colorPrimary" href="https://jobs.bere.al/">Jobs</a></div><div class="MuiGrid-root jss17 MuiGrid-item"><a class="MuiTypography-root jss16 MuiTypography-body1 MuiTypography-noWrap" href="/en/press">Press</a></div></div><div class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 MuiGrid-item MuiGrid-align-content-xs-center MuiGrid-justify-content-xs-center MuiGrid-grid-md-2"><div class="MuiGrid-root MuiGrid-item"><a class="MuiTypography-root MuiLink-root MuiLink-underlineHover jss20 MuiTypography-colorPrimary" title="Instagram" target="_blank" href="https://www.instagram.com/bereal/"><svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4H7.6m9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8 1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3z"></path></svg></a></div><div class="MuiGrid-root MuiGrid-item"><a class="MuiTypography-root MuiLink-root MuiLink-underlineHover jss20 MuiTypography-colorPrimary" title="Twitter" target="_blank" href="https://twitter.com/bereal_app"><svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path d="M22.46 6c-.77.35-1.6.58-2.46.69.88-.53 1.56-1.37 1.88-2.38-.83.5-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35 0-4.27 1.92-4.27 4.29 0 .34.04.67.11.98C8.28 9.09 5.11 7.38 3 4.79c-.37.63-.58 1.37-.58 2.15 0 1.49.75 2.81 1.91 3.56-.71 0-1.37-.2-1.95-.5v.03c0 2.08 1.48 3.82 3.44 4.21a4.22 4.22 0 0 1-1.93.07 4.28 4.28 0 0 0 4 2.98 8.521 8.521 0 0 1-5.33 1.84c-.34 0-.68-.02-1.02-.06C3.44 20.29 5.7 21 8.12 21 16 21 20.33 14.46 20.33 8.79c0-.19 0-.37-.01-.56.84-.6 1.56-1.36 2.14-2.23z"></path></svg></a></div><div class="MuiGrid-root MuiGrid-item"><a class="MuiTypography-root MuiLink-root MuiLink-underlineHover jss20 MuiTypography-colorPrimary" title="Facebook" target="_blank" href="https://www.facebook.com/BeRealApp"><svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2m13 2h-2.5A3.5 3.5 0 0 0 12 8.5V11h-2v3h2v7h3v-7h3v-3h-3V9a1 1 0 0 1 1-1h2V5z"></path></svg></a></div></div></div></div></div></div><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-50511934-2"></script><script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","UA-50511934-2",{anonymize_ip:!0})</script><script>!function(e){function r(r){for(var n,l,i=r[0],a=r[1],f=r[2],c=0,s=[];c<i.length;c++)l=i[c],Object.prototype.hasOwnProperty.call(o,l)&&o[l]&&s.push(o[l][0]),o[l]=0;for(n in a)Object.prototype.hasOwnProperty.call(a,n)&&(e[n]=a[n]);for(p&&p(r);s.length;)s.shift()();return u.push.apply(u,f||[]),t()}function t(){for(var e,r=0;r<u.length;r++){for(var t=u[r],n=!0,i=1;i<t.length;i++){var a=t[i];0!==o[a]&&(n=!1)}n&&(u.splice(r--,1),e=l(l.s=t[0]))}return e}var n={},o={1:0},u=[];function l(r){if(n[r])return n[r].exports;var t=n[r]={i:r,l:!1,exports:{}};return e[r].call(t.exports,t,t.exports,l),t.l=!0,t.exports}l.m=e,l.c=n,l.d=function(e,r,t){l.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:t})},l.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},l.t=function(e,r){if(1&r&&(e=l(e)),8&r)return e;if(4&r&&"object"==typeof e&&e&&e.__esModule)return e;var t=Object.create(null);if(l.r(t),Object.defineProperty(t,"default",{enumerable:!0,value:e}),2&r&&"string"!=typeof e)for(var n in e)l.d(t,n,function(r){return e[r]}.bind(null,n));return t},l.n=function(e){var r=e&&e.__esModule?function(){return e.default}:function(){return e};return l.d(r,"a",r),r},l.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},l.p="/";var i=this["webpackJsonpbereal-website"]=this["webpackJsonpbereal-website"]||[],a=i.push.bind(i);i.push=r,i=i.slice();for(var f=0;f<i.length;f++)r(i[f]);var p=a;t()}([])</script><script src="/static/js/2.161f1460.chunk.js"></script><script src="/static/js/main.2c600b88.chunk.js"></script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/vaafb692b2aea4879b33c060e79fe94621666317369993" integrity="sha512-0ahDYl866UMhKuYcW078ScMalXqtFJggm7TmlUtp0UlD4eQk0Ixfnm5ykXKvGJNFjLMoortdseTfsRT8oCfgGA==" data-cf-beacon='{"rayId":"7984c5120e08df81","token":"f678462195104f2b8dcc03f9807ff2d1","version":"2022.11.3","si":100}' crossorigin="anonymous"></script>
+</body></html>

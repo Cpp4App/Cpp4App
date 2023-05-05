@@ -1,0 +1,139 @@
+{
+    "compos": [
+        {
+            "id": 0,
+            "class": "Compo",
+            "height": 23,
+            "width": 16,
+            "position": {
+                "column_min": 352,
+                "row_min": 10,
+                "column_max": 368,
+                "row_max": 33
+            }
+        },
+        {
+            "id": 1,
+            "class": "Compo",
+            "height": 18,
+            "width": 18,
+            "position": {
+                "column_min": 306,
+                "row_min": 12,
+                "column_max": 324,
+                "row_max": 30
+            }
+        },
+        {
+            "id": 2,
+            "class": "Block",
+            "height": 159,
+            "width": 117,
+            "position": {
+                "column_min": 134,
+                "row_min": 350,
+                "column_max": 251,
+                "row_max": 509
+            },
+            "children": [
+                3
+            ]
+        },
+        {
+            "id": 3,
+            "class": "Compo",
+            "height": 62,
+            "width": 64,
+            "position": {
+                "column_min": 160,
+                "row_min": 376,
+                "column_max": 224,
+                "row_max": 438
+            },
+            "parent": 2
+        },
+        {
+            "id": 4,
+            "class": "Text",
+            "height": 15,
+            "width": 104,
+            "position": {
+                "column_min": 141,
+                "row_min": 12,
+                "column_max": 245,
+                "row_max": 27
+            },
+            "text_content": "Select Location"
+        },
+        {
+            "id": 5,
+            "class": "Text",
+            "height": 17,
+            "width": 48,
+            "position": {
+                "column_min": 72,
+                "row_min": 81,
+                "column_max": 120,
+                "row_max": 98
+            },
+            "text_content": "Nearby"
+        },
+        {
+            "id": 6,
+            "class": "Text",
+            "height": 14,
+            "width": 68,
+            "position": {
+                "column_min": 256,
+                "row_min": 83,
+                "column_max": 324,
+                "row_max": 97
+            },
+            "text_content": "Favourites"
+        },
+        {
+            "id": 7,
+            "class": "Text",
+            "height": 16,
+            "width": 307,
+            "position": {
+                "column_min": 40,
+                "row_min": 234,
+                "column_max": 347,
+                "row_max": 250
+            },
+            "text_content": "Quickly order from your favorite restaurants. Log"
+        },
+        {
+            "id": 8,
+            "class": "Text",
+            "height": 11,
+            "width": 176,
+            "position": {
+                "column_min": 105,
+                "row_min": 260,
+                "column_max": 281,
+                "row_max": 271
+            },
+            "text_content": "in to start saving your faves."
+        },
+        {
+            "id": 9,
+            "class": "Text",
+            "height": 17,
+            "width": 69,
+            "position": {
+                "column_min": 159,
+                "row_min": 282,
+                "column_max": 228,
+                "row_max": 299
+            },
+            "text_content": "Log in now"
+        }
+    ],
+    "img_shape": [
+        800,
+        387,
+        3
+    ]
+}

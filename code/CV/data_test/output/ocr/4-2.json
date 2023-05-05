@@ -1,0 +1,179 @@
+{
+    "img_shape": [
+        2992,
+        1440,
+        3
+    ],
+    "texts": [
+        {
+            "id": 0,
+            "content": "Inbox",
+            "column_min": 632,
+            "row_min": 49,
+            "column_max": 805,
+            "row_max": 126,
+            "width": 173,
+            "height": 77
+        },
+        {
+            "id": 1,
+            "content": "Create",
+            "column_min": 124,
+            "row_min": 513,
+            "column_max": 264,
+            "row_max": 568,
+            "width": 140,
+            "height": 55
+        },
+        {
+            "id": 2,
+            "content": "Activity",
+            "column_min": 50,
+            "row_min": 691,
+            "column_max": 262,
+            "row_max": 774,
+            "width": 212,
+            "height": 83
+        },
+        {
+            "id": 3,
+            "content": "TikTok: Train with NBA star Patty Mills",
+            "column_min": 312,
+            "row_min": 885,
+            "column_max": 1157,
+            "row_max": 941,
+            "width": 845,
+            "height": 56
+        },
+        {
+            "id": 4,
+            "content": "LIVE now! 3d",
+            "column_min": 315,
+            "row_min": 957,
+            "column_max": 611,
+            "row_max": 1000,
+            "width": 296,
+            "height": 43
+        },
+        {
+            "id": 5,
+            "content": "Messages",
+            "column_min": 54,
+            "row_min": 1208,
+            "column_max": 332,
+            "row_max": 1279,
+            "width": 278,
+            "height": 71
+        },
+        {
+            "id": 6,
+            "content": "Contacts",
+            "column_min": 311,
+            "row_min": 1380,
+            "column_max": 557,
+            "row_max": 1444,
+            "width": 246,
+            "height": 64
+        },
+        {
+            "id": 7,
+            "content": "Find",
+            "column_min": 1157,
+            "row_min": 1424,
+            "column_max": 1273,
+            "row_max": 1480,
+            "width": 116,
+            "height": 56
+        },
+        {
+            "id": 8,
+            "content": "Find your contacts",
+            "column_min": 315,
+            "row_min": 1474,
+            "column_max": 736,
+            "row_max": 1518,
+            "width": 421,
+            "height": 44
+        },
+        {
+            "id": 9,
+            "content": "New followers",
+            "column_min": 308,
+            "row_min": 1655,
+            "column_max": 694,
+            "row_max": 1711,
+            "width": 386,
+            "height": 56
+        },
+        {
+            "id": 10,
+            "content": "Messages from followers will appear here",
+            "column_min": 315,
+            "row_min": 1742,
+            "column_max": 1254,
+            "row_max": 1786,
+            "width": 939,
+            "height": 44
+        },
+        {
+            "id": 11,
+            "content": "00",
+            "column_min": 389,
+            "row_min": 2830,
+            "column_max": 479,
+            "row_max": 2895,
+            "width": 90,
+            "height": 65
+        },
+        {
+            "id": 12,
+            "content": "-",
+            "column_min": 984,
+            "row_min": 2855,
+            "column_max": 1035,
+            "row_max": 2895,
+            "width": 51,
+            "height": 40
+        },
+        {
+            "id": 13,
+            "content": "Home",
+            "column_min": 82,
+            "row_min": 2919,
+            "column_max": 204,
+            "row_max": 2971,
+            "width": 122,
+            "height": 52
+        },
+        {
+            "id": 14,
+            "content": "Friends",
+            "column_min": 363,
+            "row_min": 2923,
+            "column_max": 501,
+            "row_max": 2967,
+            "width": 138,
+            "height": 44
+        },
+        {
+            "id": 15,
+            "content": "Inbox",
+            "column_min": 958,
+            "row_min": 2930,
+            "column_max": 1064,
+            "row_max": 2964,
+            "width": 106,
+            "height": 34
+        },
+        {
+            "id": 16,
+            "content": "Profile",
+            "column_min": 1234,
+            "row_min": 2923,
+            "column_max": 1356,
+            "row_max": 2970,
+            "width": 122,
+            "height": 47
+        }
+    ]
+}

@@ -1,0 +1,149 @@
+{
+    "img_shape": [
+        2970,
+        1440,
+        3
+    ],
+    "texts": [
+        {
+            "id": 0,
+            "content": "Your profile",
+            "column_min": 83,
+            "row_min": 269,
+            "column_max": 571,
+            "row_max": 366,
+            "width": 488,
+            "height": 97
+        },
+        {
+            "id": 1,
+            "content": "Sign Out",
+            "column_min": 1143,
+            "row_min": 387,
+            "column_max": 1356,
+            "row_max": 442,
+            "width": 213,
+            "height": 55
+        },
+        {
+            "id": 2,
+            "content": "Personal Settings",
+            "column_min": 264,
+            "row_min": 597,
+            "column_max": 681,
+            "row_max": 656,
+            "width": 417,
+            "height": 59
+        },
+        {
+            "id": 3,
+            "content": "Payment Methods",
+            "column_min": 270,
+            "row_min": 845,
+            "column_max": 699,
+            "row_max": 897,
+            "width": 429,
+            "height": 52
+        },
+        {
+            "id": 4,
+            "content": "8",
+            "column_min": 102,
+            "row_min": 1064,
+            "column_max": 195,
+            "row_max": 1173,
+            "width": 93,
+            "height": 109
+        },
+        {
+            "id": 5,
+            "content": "Privacy Settings",
+            "column_min": 263,
+            "row_min": 1082,
+            "column_max": 655,
+            "row_max": 1154,
+            "width": 392,
+            "height": 72
+        },
+        {
+            "id": 6,
+            "content": "Account Management",
+            "column_min": 330,
+            "row_min": 1374,
+            "column_max": 858,
+            "row_max": 1426,
+            "width": 528,
+            "height": 52
+        },
+        {
+            "id": 7,
+            "content": "Delete Account",
+            "column_min": 534,
+            "row_min": 1708,
+            "column_max": 906,
+            "row_max": 1764,
+            "width": 372,
+            "height": 56
+        },
+        {
+            "id": 8,
+            "content": "[1234",
+            "column_min": 947,
+            "row_min": 2796,
+            "column_max": 1066,
+            "row_max": 2860,
+            "width": 119,
+            "height": 64
+        },
+        {
+            "id": 9,
+            "content": "Home",
+            "column_min": 86,
+            "row_min": 2895,
+            "column_max": 202,
+            "row_max": 2946,
+            "width": 116,
+            "height": 51
+        },
+        {
+            "id": 10,
+            "content": "Order",
+            "column_min": 381,
+            "row_min": 2899,
+            "column_max": 483,
+            "row_max": 2942,
+            "width": 102,
+            "height": 43
+        },
+        {
+            "id": 11,
+            "content": "Code",
+            "column_min": 957,
+            "row_min": 2899,
+            "column_max": 1059,
+            "row_max": 2942,
+            "width": 102,
+            "height": 43
+        },
+        {
+            "id": 12,
+            "content": "Rewards & Deals",
+            "column_min": 582,
+            "row_min": 2902,
+            "column_max": 858,
+            "row_max": 2942,
+            "width": 276,
+            "height": 40
+        },
+        {
+            "id": 13,
+            "content": "More",
+            "column_min": 1245,
+            "row_min": 2899,
+            "column_max": 1347,
+            "row_max": 2942,
+            "width": 102,
+            "height": 43
+        }
+    ]
+}

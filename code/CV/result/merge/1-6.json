@@ -1,0 +1,199 @@
+{
+    "compos": [
+        {
+            "id": 0,
+            "class": "Compo",
+            "height": 18,
+            "width": 17,
+            "position": {
+                "column_min": 15,
+                "row_min": 12,
+                "column_max": 32,
+                "row_max": 30
+            }
+        },
+        {
+            "id": 1,
+            "class": "Compo",
+            "height": 17,
+            "width": 10,
+            "position": {
+                "column_min": 326,
+                "row_min": 229,
+                "column_max": 336,
+                "row_max": 246
+            }
+        },
+        {
+            "id": 2,
+            "class": "Compo",
+            "height": 20,
+            "width": 20,
+            "position": {
+                "column_min": 46,
+                "row_min": 309,
+                "column_max": 66,
+                "row_max": 329
+            }
+        },
+        {
+            "id": 3,
+            "class": "Compo",
+            "height": 17,
+            "width": 10,
+            "position": {
+                "column_min": 326,
+                "row_min": 310,
+                "column_max": 336,
+                "row_max": 327
+            }
+        },
+        {
+            "id": 4,
+            "class": "Compo",
+            "height": 20,
+            "width": 25,
+            "position": {
+                "column_min": 335,
+                "row_min": 463,
+                "column_max": 360,
+                "row_max": 483
+            }
+        },
+        {
+            "id": 5,
+            "class": "Text",
+            "height": 17,
+            "width": 44,
+            "position": {
+                "column_min": 86,
+                "row_min": 60,
+                "column_max": 130,
+                "row_max": 77
+            },
+            "text_content": "Log in"
+        },
+        {
+            "id": 6,
+            "class": "Text",
+            "height": 15,
+            "width": 49,
+            "position": {
+                "column_min": 254,
+                "row_min": 62,
+                "column_max": 303,
+                "row_max": 77
+            },
+            "text_content": "Sign up"
+        },
+        {
+            "id": 7,
+            "class": "Text",
+            "height": 15,
+            "width": 238,
+            "position": {
+                "column_min": 25,
+                "row_min": 150,
+                "column_max": 263,
+                "row_max": 165
+            },
+            "text_content": "By logging in, I agree with McDonald's"
+        },
+        {
+            "id": 8,
+            "class": "Text",
+            "height": 15,
+            "width": 279,
+            "position": {
+                "column_min": 23,
+                "row_min": 168,
+                "column_max": 302,
+                "row_max": 183
+            },
+            "text_content": "Terms & Conditions and Privacy Statement"
+        },
+        {
+            "id": 9,
+            "class": "Text",
+            "height": 14,
+            "width": 141,
+            "position": {
+                "column_min": 89,
+                "row_min": 230,
+                "column_max": 230,
+                "row_max": 244
+            },
+            "text_content": "Log in with Facebook"
+        },
+        {
+            "id": 10,
+            "class": "Text",
+            "height": 15,
+            "width": 123,
+            "position": {
+                "column_min": 88,
+                "row_min": 310,
+                "column_max": 211,
+                "row_max": 325
+            },
+            "text_content": "Log in with Google"
+        },
+        {
+            "id": 11,
+            "class": "Text",
+            "height": 15,
+            "width": 38,
+            "position": {
+                "column_min": 23,
+                "row_min": 406,
+                "column_max": 61,
+                "row_max": 421
+            },
+            "text_content": "Email"
+        },
+        {
+            "id": 12,
+            "class": "Text",
+            "height": 15,
+            "width": 62,
+            "position": {
+                "column_min": 24,
+                "row_min": 474,
+                "column_max": 86,
+                "row_max": 489
+            },
+            "text_content": "Password"
+        },
+        {
+            "id": 13,
+            "class": "Text",
+            "height": 15,
+            "width": 114,
+            "position": {
+                "column_min": 24,
+                "row_min": 503,
+                "column_max": 138,
+                "row_max": 518
+            },
+            "text_content": "Forgot password?"
+        },
+        {
+            "id": 14,
+            "class": "Text",
+            "height": 20,
+            "width": 48,
+            "position": {
+                "column_min": 169,
+                "row_min": 757,
+                "column_max": 217,
+                "row_max": 777
+            },
+            "text_content": "Sign In"
+        }
+    ],
+    "img_shape": [
+        800,
+        387,
+        3
+    ]
+}

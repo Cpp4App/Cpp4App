@@ -1,0 +1,227 @@
+{
+    "compos": [
+        {
+            "id": 0,
+            "class": "Compo",
+            "height": 20,
+            "width": 21,
+            "position": {
+                "column_min": 44,
+                "row_min": 230,
+                "column_max": 65,
+                "row_max": 250
+            }
+        },
+        {
+            "id": 1,
+            "class": "Compo",
+            "height": 27,
+            "width": 25,
+            "position": {
+                "column_min": 43,
+                "row_min": 339,
+                "column_max": 68,
+                "row_max": 366
+            }
+        },
+        {
+            "id": 2,
+            "class": "Compo",
+            "height": 18,
+            "width": 17,
+            "position": {
+                "column_min": 98,
+                "row_min": 480,
+                "column_max": 115,
+                "row_max": 498
+            }
+        },
+        {
+            "id": 3,
+            "class": "Text",
+            "height": 23,
+            "width": 39,
+            "position": {
+                "column_min": 329,
+                "row_min": 21,
+                "column_max": 368,
+                "row_max": 44
+            },
+            "text_content": "Skip"
+        },
+        {
+            "id": 4,
+            "class": "Text",
+            "height": 25,
+            "width": 278,
+            "position": {
+                "column_min": 42,
+                "row_min": 91,
+                "column_max": 320,
+                "row_max": 116
+            },
+            "text_content": "Automatically track"
+        },
+        {
+            "id": 5,
+            "class": "Text",
+            "height": 29,
+            "width": 294,
+            "position": {
+                "column_min": 40,
+                "row_min": 123,
+                "column_max": 334,
+                "row_max": 152
+            },
+            "text_content": "orders by connecting"
+        },
+        {
+            "id": 6,
+            "class": "Text",
+            "height": 29,
+            "width": 164,
+            "position": {
+                "column_min": 39,
+                "row_min": 157,
+                "column_max": 203,
+                "row_max": 186
+            },
+            "text_content": "your Gmail."
+        },
+        {
+            "id": 7,
+            "class": "Text",
+            "height": 24,
+            "width": 215,
+            "position": {
+                "column_min": 84,
+                "row_min": 229,
+                "column_max": 299,
+                "row_max": 253
+            },
+            "text_content": "We respect your privacy"
+        },
+        {
+            "id": 8,
+            "class": "Text",
+            "height": 14,
+            "width": 219,
+            "position": {
+                "column_min": 87,
+                "row_min": 272,
+                "column_max": 306,
+                "row_max": 286
+            },
+            "text_content": "Shop will only use shopping related"
+        },
+        {
+            "id": 9,
+            "class": "Text",
+            "height": 15,
+            "width": 193,
+            "position": {
+                "column_min": 87,
+                "row_min": 290,
+                "column_max": 280,
+                "row_max": 305
+            },
+            "text_content": "emails to help you track orders."
+        },
+        {
+            "id": 10,
+            "class": "Text",
+            "height": 17,
+            "width": 195,
+            "position": {
+                "column_min": 87,
+                "row_min": 343,
+                "column_max": 282,
+                "row_max": 360
+            },
+            "text_content": "Your data is protected"
+        },
+        {
+            "id": 11,
+            "class": "Text",
+            "height": 14,
+            "width": 247,
+            "position": {
+                "column_min": 87,
+                "row_min": 382,
+                "column_max": 334,
+                "row_max": 396
+            },
+            "text_content": "Shop has been independently validated"
+        },
+        {
+            "id": 12,
+            "class": "Text",
+            "height": 12,
+            "width": 249,
+            "position": {
+                "column_min": 87,
+                "row_min": 402,
+                "column_max": 336,
+                "row_max": 414
+            },
+            "text_content": "to securely handle emails in accordance"
+        },
+        {
+            "id": 13,
+            "class": "Text",
+            "height": 14,
+            "width": 162,
+            "position": {
+                "column_min": 86,
+                "row_min": 419,
+                "column_max": 248,
+                "row_max": 433
+            },
+            "text_content": "with Google API Services."
+        },
+        {
+            "id": 14,
+            "class": "Text",
+            "height": 17,
+            "width": 149,
+            "position": {
+                "column_min": 133,
+                "row_min": 480,
+                "column_max": 282,
+                "row_max": 497
+            },
+            "text_content": "Sign in with Google"
+        },
+        {
+            "id": 15,
+            "class": "Text",
+            "height": 14,
+            "width": 18,
+            "position": {
+                "column_min": 183,
+                "row_min": 569,
+                "column_max": 201,
+                "row_max": 583
+            },
+            "text_content": "or"
+        },
+        {
+            "id": 16,
+            "class": "Text",
+            "height": 17,
+            "width": 135,
+            "position": {
+                "column_min": 124,
+                "row_min": 612,
+                "column_max": 259,
+                "row_max": 629
+            },
+            "text_content": "Sign in with email"
+        }
+    ],
+    "img_shape": [
+        800,
+        383,
+        3
+    ]
+}

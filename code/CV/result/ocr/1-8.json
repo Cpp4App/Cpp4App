@@ -1,0 +1,319 @@
+{
+    "img_shape": [
+        2973,
+        1440,
+        3
+    ],
+    "texts": [
+        {
+            "id": 0,
+            "content": "Select Location",
+            "column_min": 534,
+            "row_min": 56,
+            "column_max": 910,
+            "row_max": 99,
+            "width": 376,
+            "height": 43
+        },
+        {
+            "id": 1,
+            "content": ":",
+            "column_min": 1308,
+            "row_min": 62,
+            "column_max": 1369,
+            "row_max": 99,
+            "width": 61,
+            "height": 37
+        },
+        {
+            "id": 2,
+            "content": "Turn on location services to view",
+            "column_min": 289,
+            "row_min": 242,
+            "column_max": 1086,
+            "row_max": 285,
+            "width": 797,
+            "height": 43
+        },
+        {
+            "id": 3,
+            "content": "nearby restaurants. Check our Privacy",
+            "column_min": 279,
+            "row_min": 303,
+            "column_max": 1228,
+            "row_max": 372,
+            "width": 949,
+            "height": 69
+        },
+        {
+            "id": 4,
+            "content": "Statement for details on how your data",
+            "column_min": 283,
+            "row_min": 378,
+            "column_max": 1244,
+            "row_max": 437,
+            "width": 961,
+            "height": 59
+        },
+        {
+            "id": 5,
+            "content": "will be used.",
+            "column_min": 286,
+            "row_min": 458,
+            "column_max": 582,
+            "row_max": 502,
+            "width": 296,
+            "height": 44
+        },
+        {
+            "id": 6,
+            "content": "Bismarck Sea",
+            "column_min": 1134,
+            "row_min": 576,
+            "column_max": 1399,
+            "row_max": 629,
+            "width": 265,
+            "height": 53
+        },
+        {
+            "id": 7,
+            "content": "Indonesia",
+            "column_min": 71,
+            "row_min": 604,
+            "column_max": 305,
+            "row_max": 660,
+            "width": 234,
+            "height": 56
+        },
+        {
+            "id": 8,
+            "content": "Papua New",
+            "column_min": 987,
+            "row_min": 672,
+            "column_max": 1263,
+            "row_max": 725,
+            "width": 276,
+            "height": 53
+        },
+        {
+            "id": 9,
+            "content": "Guinea",
+            "column_min": 1038,
+            "row_min": 731,
+            "column_max": 1209,
+            "row_max": 787,
+            "width": 171,
+            "height": 56
+        },
+        {
+            "id": 10,
+            "content": "Arafura Sea",
+            "column_min": 665,
+            "row_min": 796,
+            "column_max": 894,
+            "row_max": 849,
+            "width": 229,
+            "height": 53
+        },
+        {
+            "id": 11,
+            "content": "Timor Sea.",
+            "column_min": 331,
+            "row_min": 907,
+            "column_max": 537,
+            "row_max": 960,
+            "width": 206,
+            "height": 53
+        },
+        {
+            "id": 12,
+            "content": "NORTHERN",
+            "column_min": 575,
+            "row_min": 1251,
+            "column_max": 755,
+            "row_max": 1294,
+            "width": 180,
+            "height": 43
+        },
+        {
+            "id": 13,
+            "content": "TERRITORY",
+            "column_min": 585,
+            "row_min": 1298,
+            "column_max": 752,
+            "row_max": 1332,
+            "width": 167,
+            "height": 34
+        },
+        {
+            "id": 14,
+            "content": "QUEENSLAND",
+            "column_min": 1009,
+            "row_min": 1421,
+            "column_max": 1232,
+            "row_max": 1472,
+            "width": 223,
+            "height": 51
+        },
+        {
+            "id": 15,
+            "content": "Australia",
+            "column_min": 559,
+            "row_min": 1517,
+            "column_max": 836,
+            "row_max": 1573,
+            "width": 277,
+            "height": 56
+        },
+        {
+            "id": 16,
+            "content": "WESTERN",
+            "column_min": 100,
+            "row_min": 1579,
+            "column_max": 260,
+            "row_max": 1613,
+            "width": 160,
+            "height": 34
+        },
+        {
+            "id": 17,
+            "content": "AUSTRALIA",
+            "column_min": 90,
+            "row_min": 1617,
+            "column_max": 267,
+            "row_max": 1651,
+            "width": 177,
+            "height": 34
+        },
+        {
+            "id": 18,
+            "content": "SOUTH",
+            "column_min": 665,
+            "row_min": 1750,
+            "column_max": 778,
+            "row_max": 1784,
+            "width": 113,
+            "height": 34
+        },
+        {
+            "id": 19,
+            "content": "AUSTRALIA",
+            "column_min": 636,
+            "row_min": 1790,
+            "column_max": 807,
+            "row_max": 1824,
+            "width": 171,
+            "height": 34
+        },
+        {
+            "id": 20,
+            "content": "NEW SOUTH",
+            "column_min": 1112,
+            "row_min": 1880,
+            "column_max": 1305,
+            "row_max": 1914,
+            "width": 193,
+            "height": 34
+        },
+        {
+            "id": 21,
+            "content": "WALES",
+            "column_min": 1148,
+            "row_min": 1920,
+            "column_max": 1270,
+            "row_max": 1954,
+            "width": 122,
+            "height": 34
+        },
+        {
+            "id": 22,
+            "content": "Great",
+            "column_min": 507,
+            "row_min": 2006,
+            "column_max": 631,
+            "row_max": 2063,
+            "width": 124,
+            "height": 57
+        },
+        {
+            "id": 23,
+            "content": "Australian",
+            "column_min": 463,
+            "row_min": 2053,
+            "column_max": 669,
+            "row_max": 2106,
+            "width": 206,
+            "height": 53
+        },
+        {
+            "id": 24,
+            "content": "ACT",
+            "column_min": 1286,
+            "row_min": 2045,
+            "column_max": 1360,
+            "row_max": 2099,
+            "width": 74,
+            "height": 54
+        },
+        {
+            "id": 25,
+            "content": "Bight",
+            "column_min": 507,
+            "row_min": 2099,
+            "column_max": 635,
+            "row_max": 2163,
+            "width": 128,
+            "height": 64
+        },
+        {
+            "id": 26,
+            "content": "VICTORIA",
+            "column_min": 1038,
+            "row_min": 2124,
+            "column_max": 1192,
+            "row_max": 2168,
+            "width": 154,
+            "height": 44
+        },
+        {
+            "id": 27,
+            "content": "Nearby",
+            "column_min": 266,
+            "row_min": 2315,
+            "column_max": 451,
+            "row_max": 2386,
+            "width": 185,
+            "height": 71
+        },
+        {
+            "id": 28,
+            "content": "Favourites",
+            "column_min": 955,
+            "row_min": 2326,
+            "column_max": 1205,
+            "row_max": 2378,
+            "width": 250,
+            "height": 52
+        },
+        {
+            "id": 29,
+            "content": "We can't find any restaurants nearby. Try again or",
+            "column_min": 151,
+            "row_min": 2617,
+            "column_max": 1289,
+            "row_max": 2660,
+            "width": 1138,
+            "height": 43
+        },
+        {
+            "id": 30,
+            "content": "enter a different Suburb or Postcode",
+            "column_min": 289,
+            "row_min": 2704,
+            "column_max": 1148,
+            "row_max": 2744,
+            "width": 859,
+            "height": 40
+        }
+    ]
+}
