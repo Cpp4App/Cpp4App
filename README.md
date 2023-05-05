@@ -1,5 +1,9 @@
 ### Hi there 👋
 
+This repository is for the project Contextual Privacy Policies for Mobile Apps.
+
+We are adding the code and dataset. Stay tuned!
+
 <!--
 **Cpp4App/Cpp4App** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
