@@ -1,6 +1,8 @@
 ### Hi there 👋
 
-This repository is for the project Contextual Privacy Policies for Mobile Apps.
+This repository is for the project Contextual Privacy Policies for Mobile Apps.  
+
+We propose a novel multi-modal framework, namely SEEPRIVACY, designed to automatically generate contextual privacy policies for mobile app. We utilize computer vision techniques and a pre-trained Large Language Model, i.e., Chat-GPT, to detect privacy-related contexts on mobile GUI screenshots and leverage NLP techniques to extract corresponding segments from the privacy policy document.
 
 We are adding the code and dataset. Stay tuned!
 
