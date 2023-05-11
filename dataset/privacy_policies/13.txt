@@ -1,0 +1,416 @@
+Privacy Policy
+
+Last Updated: June 22, 2022
+
+Welcome to CapCut (the “Platform"). The Platform is provided and controlled by Bytedance Pte. Ltd. (“we" or “us").
+
+We are committed to protecting and respecting your privacy. This privacy policy (the “Policy") sets out the basis on which any information we collect from you, or that you provide to us, will be processed by us, including how we may use, process, share and/or transfer your personal data. Please read this Policy carefully to understand our practices regarding your information and how we will handle it before accessing or using the Platform or the services. By accessing or using the Platform and our related websites, services, applications, products and/or content available on the Platform (collectively, the “Services"), you acknowledge that you have read and understood the practices described in this Policy, and hereby consent to us collecting, using, processing, disclosing or transferring your personal data in accordance with this Policy. If you do not agree with this Policy, you should not access or use the Platform or Services.
+
+The Platform includes the CapCut mobile software applications ("CapCut APP"), software applications deployed on the desktop ("CapCut Desktop version"), the official CapCut official website ("CapCut Web"), CapCut services in other forms now existing or hereafter devised, related Software Development Kit ("SDK") and Application Programming Interface ("API") for you through third-party websites and software applications to access and use the Platform and the Services. The version of the Platform may differ for factors such as the jurisdiction from which you access the Platform and the device you use. The Services, in full or in part, may not be available in all jurisdictions, for all devices or in all languages. You should obtain, download, and install the appropriate version according to the actual device conditions of your jurisdiction.
+
+Please note that "Jurisdiction - Specific Supplemental Terms" at the end of this Policy may apply to you depending on the jurisdiction from which you are accessing and using the Platform and/or the Services, which are deemed to be incorporated into this Policy by reference.
+
+For the purposes of this Policy, unless the context otherwise requires, “you" and “your" means you, the user of the Services, and “information" means information which we collect about you or which is provided to us by you, including your personal data.
+
+SUMMARY
+
+What information do we collect about you?
+
+We collect and process information about you when you register for an account, upload content to the Platform (where such features are available), interact with the Services, or in accordance with our request. We may also collect information about you through automated means when you access our Platform or use the Services. These include technical and behavioural information about your use of the Services. We may still collect information about you if you interact with the Platform without creating an account.
+
+How will we use the information about you?
+
+We use your information to provide the Platform and Services to you and to improve, develop and administer it. We use your information to, among other things, ensure your safety. We may also use your information to serve and measure personalized advertising and promote the Platform.
+
+Who do we share your information with?
+
+We may share your information with third party service providers who help us to deliver the Platform, send notifications to you, or conduct analysis, or with any member of our corporate group to improve the Platform, allow you to access other services provided by such member of our corporate group, or for internal business purposes. Where and when required by law, we will share your information with law enforcement agencies or regulators, and with third parties pursuant to a legally binding court order.
+
+How long do we retain your information?
+
+We retain your information for as long as it is necessary to provide you with the Services and fulfil our contractual obligations and rights in relation to the information involved. Where we do not need your information in order to provide the Services to you, we retain it only as long as we have a legitimate business purpose in keeping such data or where we are subject to a legal obligation to retain the data. We will also retain your information if we believe it is or will be necessary for the establishment, exercise or defence of legal claims.
+
+How will we notify you of any changes to the Policy?
+
+We may amend or update this Privacy Policy from time to time. We will use commercially reasonable efforts to notify you of any material changes to these Terms by a notice provided through the Platform or by other means. You should review the Privacy Policy each time you visit the Platform to stay informed of our privacy practices. The “Last Updated" date at the top of this policy reflects the effective date of such policy changes.Your continued access to or use of the Platform or the Services after the date of the updated Policy constitutes your acceptance of the updated Policy and how we may collect, use, process, disclose or transfer your information pursuant to such updated Policy. If you do not accept the updated Policy, you must stop accessing the Platform or using the Services.
+
+The types of information we collect
+We collect and use the following information about you:
+
+Information you choose to provide.
+
+Registration. You give us information when you register on the Platform, including your date of birth and gender (where applicable), your email address and the corresponding password you set for your CapCut account, your accounts on other social network services (where applicable),and other information you disclose in your user profile.
+User Content. Where such features ares provided in your region, we process the content and personal data you upload, generate, or access through the Platform, including the photographs, images and videos you upload, video templates you generate or view on the Platform, comments you make and other actions you take on the Platform, such as liking content (“User Content"). We may collect User Content through pre-loading at the time of creation, import, or upload, regardless of whether you choose to save or upload that User Content, in order to recommend audio options and provide other personalized recommendations to you. We may collect information about the images and audio that are a part of your User Content, such as identifying the objects and scenery that appear, the existence and location within an image of face and body features and attributes, the nature of the audio, and the text of the words spoken in your User Content.  We may collect this information to enable special video effects, for content moderation, and for other non-personally-identifying operations. To improve your experience, you are not required to make an account to create and upload your content on the Platform when using our website. However, if you do not subsequently create an account, then we will delete this content from our server within a certain period of time.
+Other information. If you use CapCut Cloud Space Service, we will store your content for you. We may also collect your feedback about the Services if you choose to provide it. If you use features that involve payment, including rewards programs and CapCut Cloud Space Service, our service provider and other payment related partners will collect the financial information you provide to facilitate payment, such as your bank account.
+Information we collect automatically. We may collect the following information about you:
+
+Technical information we collect about you. We automatically collect certain information from you when you access the Platform or use the Services. Such information includes your IP address, unique device identifiers (device ID), advertising identifiers, network type and connections, mobile or device model, Android ID, device manufacturer, mobile phone area, application version number, operating system, CPU and GPU information, device resolution, system language and region, battery information, and information regarding your use of the Platform (such as, where applicable, the list of likes you received, your stickers and filters).
+Location. We collect information about your approximate location, including location information based on your SIM card and/or IP address.
+Usage Information. We collect information regarding your use of the Services, e.g., video editing acts, problems encountered, and, where applicable, how you interact with content we show to you, the ads you view, videos you watch, the content you like, the users you follow and how you engage with mutual followers. Where applicable, we process information about your followers, the likes you receive and responses to content you upload, for the purposes of promoting your content to other users. 
+If you use the auto caption function, we will collect the transcribed text and the edited text in order to develop and improve this function.
+Information we obtain from other sources. We may receive information about you from other sources, including through third-party services providers or partners. For example, if you access third-party services through the Platform or Services or share information about your experience on the Services with others, we may collect information from these third-party services. If you choose to register to use the Platform using your social media network account details (e.g. Facebook) or account details with other third parties (e.g. Apple), we may collect information from these services, including your username, public profile, your liked songs on that social network (where applicable), and information about your use of that service.
+
+2. Cookies
+
+“Cookies" are small files which, when placed on your device, enable us to collect certain information, including personal data, from you in order to provide certain features and functionality. We and our service providers and business partners use Cookies to collect data and recognize you and your device(s) on the Platform and elsewhere across your different devices. We do this to measure the traffic and functionality of our website. By accessing or using the Platform and Services, you consent to our use of Cookies. You may be able to control some of the information we collect by adjusting your browser settings to refuse or disable Cookies. Because each browser is different, please consult the instructions provided by your browser. Please note that you may need to take additional steps to refuse or disable certain types of Cookies. In addition, your choice to disable cookies is specific to the particular browser or device that you are using when you disable cookies, so you may need to separately disable cookies for each type of browser or device. If you choose to refuse, disable, or delete Cookies, some of the functionality of the Platform may no longer be available to you. Without this information, we are not able to provide you with all the requested services.
+
+3. How we use your information
+
+We will use the information we collect about you in the following ways:
+
+verify your age and identity;
+administer and provide you with the Platform and Services, including to enable you to create, edit, modify and share User Content and interact with other users, and to allow you to participate in interactive features of the Platform, when you choose to do so;
+communicate with you, including to notify you about changes to the Platform and Services;
+provide you with user support;
+provide you with tailored or personalized information or content that may be of interest to you;
+enforce our terms, conditions and policies;
+respond to, handle, and process queries, requests, applications, complaints, and feedback from you;
+improve and develop the Platform and to ensure tools on the Platform are presented in the most effective manner for you and your device;
+administer the Platform and for internal operations, including troubleshooting, data analysis, testing, research, statistical and survey purposes;
+detect abuse, fraud and illegal activity on the Platform and ensure your safety and security including reviewing user content, messages and associated metadata for breaches and inappropriate content;
+provide users with personalized advertising, where such relevant feature is provided;
+comply with any applicable laws, regulations, codes of practice, guidelines, or rules, or to assist in law enforcement and investigations conducted by any governmental and/or regulatory authority;
+for any other purposes for which you have provided the information, with your consent or at your direction;
+transmit to third parties including our business partners, third party service providers and agents, and relevant governmental and/or regulatory authorities for the aforementioned purposes; and
+any other incidental business purposes related to or in connection with the above.
+4. How we share your information
+
+This section sets out how we may share your information with third parties.
+
+Service Providers
+
+We may share the categories of personal information listed above with our service providers (whether in or outside your country) in order to provide you with the Platform and Services for the purposes as set out in this Policy, including with:
+
+our service providers, suppliers and subcontractors who help us run the Platform (such as to send notifications to you); and
+data analytics, crash analytics, and search engine providers that assist us in the improvement and optimization of the Platform (including providing you with tailored or personalised information or content).
+Our Corporate Group
+
+We may share your information with any member of our group, which means our subsidiaries, our ultimate holding company and its subsidiaries, or companies that we control, are controlled by or under common control, and our service providers and strategic business partners, in each case in or outside your country, for the purposes set out in this Policy, as permitted by applicable law. We may also share your information to assist in the improvement and optimization of the Platform, or for our internal business purposes.
+
+Third Party Social Network Service Providers
+
+If you choose to register to use the Platform with your other social network account details or other third party platform account details or choose to link your Platform account with other social network accounts, these third-party services may be able to collect information about you, including information about your activity on the Platform, and they may notify your connections on the third-party services about your use of the Platform, in accordance with their privacy policies. If you choose to allow a third-party service to access your account, we will share certain information about you with the third party, such as your app ID, access token, and the referring URL. Depending on the permissions you grant, the third party may be able to obtain your account information and other information you choose to provide. Where you opt to share User Content you created or uploaded on the Platform to other social media platforms, your User Content, username and accompanying text (if any) will be shared on such platforms.
+
+Advertising and analytics partners
+
+We may share information collected through your use of our Platform (such as mobile identifiers and your device’s IP address, and related information about your inferred location and use of the Platform) with our advertising partners. These partners help us deliver relevant advertising across our Platform and on other platforms. This information is typically collected through Cookies and similar tracking technologies. We may also share aggregate information about how those ads have performed to help those advertisers measure the effectiveness of their advertising campaigns.
+
+Law Enforcement
+
+We may share your information with law enforcement agencies, public authorities or other entities if legally required to do so, or if we have a good faith belief that such use is reasonably necessary to:
+
+comply with legal obligations, processes or requests;
+enforce our Terms of Service and other agreements, policies, and standards, including investigation of any potential violation thereof;
+exercise or defend any legal claims;
+detect, prevent or otherwise address security, fraud or technical issues; or
+protect the rights, property or safety of us, our users, a third party or the public as required or permitted by law (including exchanging information with other companies and organizations for the purposes of fraud protection and credit risk reduction).
+Sale or merger
+
+We may also disclose your information to third parties:
+
+in the event that we sell any business or assets, in which case we may disclose your information to the prospective buyer of such business or assets; or
+if we sell, buy, merge with, are acquired by, or partner with other companies or businesses, or sell some or all of our assets. In such transactions, your user information may be among the transferred assets.
+We may share all of the information we collect in connection with a substantial corporate transaction, such as the sale of a website, a merger, consolidation, asset sales, or in the unlikely event of bankruptcy.
+
+Finally, we may share information with third parties with your consent or at your direction.
+
+Third-party content
+
+The Platform and Services may contain links to content maintained by third parties who we do not control. We are not responsible for the privacy practices of these third parties, and the information practices of these third parties are not covered by this Policy.
+
+5. Where we store your information
+
+The information about you that we collect from you may be transferred to, and stored at, a destination inside or outside of your country, for the purposes as described in the Policy. We will take reasonable steps to secure your information and treat it in accordance with this Policy. Where we transfer any personal data out of the country where you live, including for one or more of the purposes as set out in this Policy, we will do so in accordance with the requirements of applicable data protection laws, including by entering into data transfer agreements with the recipient to ensure your personal data is accorded an adequate level of protection.
+
+6. Your choices and rights
+
+On some versions of the Platform, you can access and edit most of your profile information by signing into your account, and you may also be able to control how you use the Platform by visiting your in-app settings, including to decide whether you see certain types of interest-based advertising on the Platform. You may also be afforded rights in your country under applicable laws such as the ability to access your data, delete your data, and potentially others. If you have any questions on how to use the settings or want to know about any rights with regard to your personal data you may have in the country where you live, please contact us at capcut.support@bytedance.com.
+
+7. The security of your information
+
+We will take reasonable steps to secure your information and treat it in accordance with the Policy. You should understand that no data storage system or transmission of data over the Internet or any other public network can be guaranteed to be 100 percent secure. We have put in place technical and organizational measures that we will amend and update from time to time to improve the overall security of our systems.
+
+8. Data retention
+
+We retain your information for as long as it is necessary to serve the purpose(s) for which such information was collected, including to provide you with the Platform or the Services. Where we do not need your information in order to provide the Platform or the Services, we retain it only for so long as we have a legitimate business or legal purpose in keeping such information. However, there are occasions where we are likely to keep this information for longer in accordance with our legal obligations or where it is necessary for the establishment, exercise or defence of legal claims.
+
+After you have terminated your use of our Platform or Services, we may store your information in an aggregated and anonymized format. Notwithstanding the foregoing, we may also retain any information as reasonably necessary to comply with our legal obligations, allow us to resolve and litigate disputes, and to enforce our agreements.
+
+9. Information relating to children
+
+The Platform is not directed at or suitable for use by children under the age of 13 or equivalent minimum age in the relevant jurisdiction (“relevant age"). Users under the relevant age are not allowed to use the Platform. If we become aware that personal information has been collected from a person under the relevant age, we will delete the user’s information in accordance with applicable law. If you believe that we may have information about or collected from a child under the relevant age, please contact us at capcut.support@bytedance.com.
+
+10. Complaints
+
+In the event that you wish to make a complaint about how we process your personal information, please contact us in the first instance at capcut.support@bytedance.com and we will endeavour to deal with your request as soon as possible. This is without prejudice to your right to launch a claim with the relevant data protection authority or follow the dispute process provided in the Terms of Service.
+
+11. Changes
+
+We may amend or update this Privacy Policy from time to time. We will notify you of any material changes to this policy by a notice provided through the Platform or by other means. We recommend that you review the Privacy Policy each time you visit the Platform to stay informed of our privacy practices. The “Last Updated" date at the top of this policy reflects the effective date of such policy changes. Your continued access to or use of the Platform and/or Services after the date of the updated Policy constitutes your acceptance to the updated Policy. If you do not consent to the updated Policy, you must stop accessing or using the Platform and Services.
+
+Unless otherwise explicitly stated under this Policy, if there is any inconsistency among different language versions, the English version shall prevail.
+
+12. Contact
+
+Questions, comments and requests regarding this Policy are welcomed and should be addressed to:
+
+CapCut, Bytedance Pte. Ltd.
+
+Email: capcut.support@bytedance.com
+
+Address: 1 Raffles Quay, #26-10, South Tower, Singapore 048583
+
+SUPPLEMENTAL TERMS – JURISDICTION SPECIFIC
+In the event of a conflict between the provisions of the Supplemental Terms – Jurisdiction Specific that are relevant to your jurisdiction from which you access or use the Services, and the rest of the Policy, the relevant jurisdiction’s Supplemental Terms – Jurisdiction Specific will supersede and control.
+
+United States
+
+If you are using our Services in the United States, the following additional terms apply:
+
+California Privacy Rights
+
+If you are a California resident, you may request certain information about our disclosure of personal information to third parties for their own direct marketing purposes during the preceding calendar year. This request is free and may be made once a year. Your browser may offer you a “Do Not Track" option, which allows you to signal to operators of websites and web applications and services (including behavioral advertising services) that you do not wish such operators to track certain of your online activities over time and/or across different websites. Our products do not support Do Not Track requests at this time.
+
+Pursuant to the California Consumer Privacy Act (“CCPA"), California residents, subject to verification, may request to see what personal information we have collected about them over the past 12 months, including the categories of personal information that the business has collected about the consumer, the categories of sources for that information, the business or commercial purposes for collecting the information, the categories of third parties with which the information was shared, and the specific pieces of personal information collected about them. If you are a California resident, you may also request that we delete your personal information subject to certain exceptions. Consistent with California law, if you choose to exercise either of these rights, we will not charge you different prices or provide different qualities of services unless those differences are related to your information. Please submit your request via the following method:
+
+Email: capcut.support@bytedance.com
+
+Address: 1 Raffles Quay, #26-10, South Tower, Singapore 048583
+
+We do not sell personal information to third parties for purposes of the CCPA. We may permit third parties to collect personal information through our Services and share each of the categories of personal information described above with third parties for business purposes. These business purposes are described above and include providing advertising on our products and services and elsewhere based on users’ online activities over time and across different sites, services, and devices (so-called “interest-based advertising") and website and online service analytics. The information practices of these third parties are not covered by the Policy.
+
+EEA, Switzerland and UK
+
+If you are using the Services in the EEA, Switzerland or the UK (the “European Region"), the following additional terms apply:
+
+International data transfers
+
+If you normally reside in the European Region, the personal data that we collect from you will be further transferred to, and stored at, a destination outside of the European Region (for instance, to our service providers and partners). These transfers are made pursuant to appropriate safeguards, such as standard data protection clauses adopted by the European Commission, If you wish to enquire further about these safeguards, please contact us at capcut.support@bytedance.com.
+
+Your rights
+
+You have the following rights:
+
+The right to request free of charge (i) confirmation of whether we process your personal data and (ii) access to a copy of the personal data retained;
+The right to request proper rectification or removal of your personal data or restriction of the processing of your personal data;
+Where processing of your personal data is either based on your consent or necessary for the performance of a contract with you and processing is carried out by automated means, the right to receive the personal data concerning you in a structured, commonly used and machine-readable format or to have your personal data transmitted directly to another company, where technically feasible (data portability);
+Where the processing of your personal data is based on your consent, the right to withdraw your consent at any time (withdrawal will not impact the lawfulness of data processing activities that have taken place before such withdrawal);
+The right not to be subject to any automatic individual decisions, including profiling, which produces legal effects on you or similarly significantly affects you unless we have your consent, this is authorised by Union or Member State law or this is necessary for the performance of a contract;
+The right to object to processing if we are processing your personal data on the basis of our legitimate interest unless we can demonstrate compelling legitimate grounds which may override your right. If you object to such processing, we ask you to state the grounds of your objection in order for us to examine the processing of your personal data and to balance our legitimate interest in processing and your objection to this processing;
+The right to object to processing your personal data for direct marketing purposes; and
+The right to lodge complaints before the competent data protection regulator.
+Before we can respond to a request to exercise one or more of the rights listed above, you may be required to verify your identity or your account details.
+
+Please send an e-mail to us if you would like to exercise any of your rights capcut.support@bytedance.com.
+
+If you are based in the United Kingdom, our designated GDPR representative is:
+
+Cosmo Technology Private Limited
+
+2 Temple Back East
+
+Temple Quay
+
+Bristol
+
+United Kingdom
+
+BS1 6EG
+
+If you are based in the EEA or Switzerland, our designated GDPR representative is:
+
+Mikros Information Technology Ireland Limited
+
+Mespil Business Centre
+
+Mespil House
+
+Sussex Road
+
+Dublin 4
+
+Ireland
+
+Russia
+
+Legal grounds for data processing: When we process your personal data, we rely on your consent, performance of a contract, our legitimate interest and obligations to process personal data, when we so required by law.
+
+By signing up and using the Platform, you consent to the processing of personal data in accordance with this Privacy Policy.
+
+Where we store your personal data: Your personal data may be transferred from Russia to Singapore and stored in that location, outside of the country where you live.
+
+Public profiles. We rely on your consent to public distribution of personal data, when your account settings are 'Public Profile'. You can change your profile to private by changing your settings to 'Private Account' in “Manage my account" settings.
+
+Brazil
+
+If you are using our Services in Brazil, the following additional terms apply:
+
+Exercise of data protection rights. Brazilian law provides certain rights to individuals with regard to their personal data. Thus, we seek to ensure transparency and access controls in order to allow users to benefit from the mentioned rights.
+
+We will respond and/or fulfill your requests for the exercise of your rights below, according to the applicable law and when applicable, to the Brazilian General Data Protection Law - LGPD:
+
+a. confirmation of whether your data are being processed;
+
+b. access to your data;
+
+c. correction of incomplete, inaccurate or outdated data;
+
+d. anonymization, blocking or erasure of data;
+
+e. portability of personal data to a third party;
+
+f. object to the processing of personal data;
+
+g. information of public and private entities with which we shared data;
+
+h. information about the possibility to refuse providing personal data and the respective consequences, when applicable;
+
+i. withdrawal of your consent.
+
+Verifying your identity. For your safety and to allow us to make sure that we do not disclose any of your personal data to unauthorized third parties, in order to verify your identity and guarantee the adequate exercise of your rights, we may request specific information and/or documents from you before we can properly respond to a request received concerning your data. All data and documents received from you in the process of responding to your requests will be used for the strict purposes of analyzing your request, authenticating your identity, and finally responding to your request.
+
+Limitations to your rights. In certain situations, we may have legitimate reasons not to comply with some of your requests. For instance, we may choose not to disclose certain information to you when a disclosure could adversely impact our business whenever there is a risk of violation to our trade secrets or intellectual property rights. In addition, we may refrain from complying with a request for erasure when the maintenance of your data is required for complying with legal or regulatory obligations or when such maintenance is required to protect our rights and interests in case a dispute arises. Whenever this is the case and we are unable to comply with a request you make, we will let you know the reasons why we cannot fulfill your request.
+
+In case of doubt about your privacy, your rights or how to exercise them, please contact us through the form "Contact". If you have any questions about the processing of your personal data, we would like to clarify them.
+
+International Transfer of Data. We share your personal data globally with companies of our business group to carry out the activities specified in this Policy. We may also subcontract the processing of data involved in the Services or share your personal data with third parties located in other countries. Your personal data may therefore be subject to privacy laws other than those applicable in your country.
+
+Whenever we transfer your personal data to third parties located in other countries, we will ensure that these companies comply with applicable data protection laws and we will take all measures that are reasonably necessary to ensure the existence of adequate safeguards to protect your personal data and to ensure that are processed safely.
+
+Parental and Guardian Consent. If required by Brazilian data protection laws, (i) if you are over the age of 16 but under the age of 18, you can only use and register for an account with the assistance of your parent or legal guardian and you declare and represent that you had such assistance to use the Services and to agree to the Policy; (ii) if you are over the age of 13 but under the age of 16, you can only use and register for an account with the representation of your parent or legal guardian, and you must obtain the consent from your parent or legal guardian to the use of the Services and acceptance of this Privacy Policy.
+
+Language. The Policy may have been prepared in the English language and in the Portuguese language. If you are a user located in Brazil, you shall refer to the Portuguese version, which shall prevail.
+
+DPO. If you wish to contact the Data Protection Officer, please contact us: dpobrasil@bytedance.com
+
+South Korea
+
+If you are using our Services in South Korea, the following additional terms apply:
+
+Data retention. We destroy personal data whose purpose of collection as consented to by you have been achieved, or whose periods of and use to which you consented to or which were provided in the Policy have expired; provided, however, we will continue to store your personal data for the following statutorily-prescribed periods, where applicable, including, but not limited to:
+
+Act on Consumer Protection in Electronic Commerce:
+Records on your cancellation of an order, your payment on a purchased item, and our supply of a good/service: 5 years
+Records on the handling of consumer complaints or disputes: 3 years
+Records on advertisements and labels: 6 months
+Protection of Communications Secrets Act
+Records on your visits to our website: 3 months
+Destruction of Personal data. We destroy your personal data in a manner that renders it unrestorable by the relevant department.
+
+Your Rights
+
+Data rights. You have the right to access personal data we hold about you, to rectify any personal data held about you that is inaccurate, to request the deletion of personal data held about you, and the right to request the suspension of the processing of your personal data. You can exercise your rights by contacting us at capcut.support@bytedance.com.
+Data Security. We work hard to protect CapCut and our users from unauthorized access to or unauthorized alteration, disclosure or destruction of information we hold. To this end, we have in place technical, managerial and physical safeguards, including internal policy for data protection, limiting the access to personal data on a need-to-know basis and controlling access to the facilities where personal data is processed.
+Information Relating to Children. CapCut is not directed at children under the age of 14.
+Entrustment and/or Overseas Transfer of Personal Data. We entrust your data to our affiliates, cloud storage providers, IT service providers, and data centers, some of whom are located abroad, subject to your consents or notifications to you, if applicable. The entities receiving and processing your data are committed to using and storing personal data in compliance with domestic and international regulations and to taking all available physical and technical measures to protect personal data. You may opt-out of such transfer so long as the transfer is not necessary to provide you with the Services, by contacting capcut.support@bytedance.com.
+Indonesia
+
+If you are using our services in Indonesia, the following additional terms apply:
+
+Age, Parental and Guardian Consent. By accessing and/or using our Services, you represent that you are at least 21 years of age or married or not under guardianship. If you are below 21 years old and you are not married, or under guardianship:
+
+you must obtain approval from your parent(s) or legal guardian(s); and
+your parent(s) or legal guardian(s) are responsible for: (i) all your actions in connection with your access to and use of the Services; (ii) your compliance with this policy; and (iv) ensuring that any of your participation in the Services will not, in any event, result in any violation of applicable laws and regulations relating to child protections. 
+If you do not have consent from your parent(s) or legal guardian(s) and your parent(s) or guardian(s) is not willing to open the account under their name, you must cease accessing the Services.
+
+Your Choices. You may withdraw your consent to our disclosure of personal data to third parties. Upon your request, we will ease to display, publish, transmit, disseminate, and/or open the access to your personal data to third parties. Please note that by withdrawing your consent to the disclosure and/or collection of your personal data, we may not be able to fulfill your requests and you may not be able to use some of Capcut's features and functionality.
+
+You may request us to (i) disclose history of personal data that we have collected; and/or (ii) erase and dispose your personal data that we have collected on our server. Please note that by requesting us to erase and dispose your personal data, you may not be able to use some of Capcut's features and functionality.
+
+To exercise any of your rights, contact us at: capcut.support@bytedance.com.
+
+Notification. In the event of any breach of personal data, we will notify you and provide you with information regarding such breach of personal data.
+
+Data retention. We retain your information for as long as it is necessary to provide you with the service. Where we do not need your information in order to provide the service to you, we retain it only for so long as we have a legitimate business purpose in keeping such data. However, there are occasions where we are likely to keep this data for five (5) years (or longer if required) in accordance with our legal obligations or where it is necessary for the establishment, exercise or defence of legal claims. 
+
+After you have terminated your use of our Services and the five (5) years retention period has lapsed, we store your information in an aggregated and anonymised format. Non-personally identifiable information may be retained indefinitely for analytics.
+
+Turkey 
+
+If you are using our Services in Turkey, the following additional terms:
+
+Data Controller Representative. You may contact our data controller representative in Turkey by email or mail to handle questions and complaints in connection with the processing of your personal data if you are in Turkey.
+
+İlay Yılmaz
+
+ilay.yilmaz@esin.av.tr
+
+Ebulula Mardin Cad., Gül Sok. No. 2 
+
+Maya Park Tower 2, Akatlar-Beşiktaş 34335 Istanbul Turkey
+
+Legal bases for the processing your personal data. We rely on the following legal bases while processing your personal data in accordance with Article 5 of the Law No. 6698 on Protection of Personal Data:
+
+processing is explicitly laid down or dictated by laws
+processing of your personal data is necessary provided that it is directly related to the conclusion or fulfilment of the contract between us
+processing is mandatory for us to be able to comply with our legal obligations
+the relevant data is made available to the public by yourself
+processing is mandatory for the establishment, exercise or protection of a right
+processing is mandatory for our legitimate interests, provided that it does not violate your fundamental rights and freedoms
+your explicit consent (Please note that we rely on this legal basis only when we require your consent for the processing and we do not rely on this legal basis if and when we rely on one of the other legal grounds above)
+Your rights. According to Article 11 of the Data Protection Law, you have the following rights with respect to your personal data:
+
+the right to learn whether we process your personal data,
+the right to request information with regard to such processing, if we process your personal data,
+the right to learn the purposes of the processing and whether they are used for such purpose or not;
+the right to know the third parties within or outside the country, to whom we transfer your personal data,
+the right to request correction of incomplete or inaccurate personal data,
+the right to request deletion or destruction of your personal data under the conditions set forth in Article 7 of the Data Protection Law,
+the right to request that we notify the third parties, to whom we transferred your personal data, about the correction, deletion and/or destruction of your personal data per your request within the scope of the foregoing two items,
+the right to object to the negative results about you that are due to the analysis of your personal data processed solely by automated means,
+the right to claim indemnification for damages incurred due to illegal processing of your personal data.
+You may exercise your rights listed above by contact us at: please contact us at capcut.support@bytedance.com.
+
+The requests found in your application will be resolved as soon as possible according to the nature of your request and within thirty days at the latest free of charge. However, if your request incurs additional cost to our company, then you may be charged over the tariff fee determined by the Turkish Personal Data Protection Board.
+
+Amendments. The following sections of the Policy do not apply to individuals in Turkey:
+
+The following sentence at the end of the second paragraph of the introduction section: If you do not agree with this Policy, you should not access or use the Platform or Services.
+
+The following sentence at the end of the Summary section: By accessing or using the Platform and our related websites, services, applications, products and/or content available on the Platform (collectively, the “Services"), you acknowledge that you have read and understood the practices described in this Policy, and hereby consent to us collecting, using, processing, disclosing or transferring your personal data in accordance with this Policy.
+
+The following sentence at the end of the first paragraph of the Cookies section:  By accessing or using the Platform and Services, you consent to our use of Cookies.
+
+Language. This policy is available in English and Turkish. If there is any inconsistency or different interpretation between the English and Turkish versions, the Turkish text shall prevail.
+
+United Arab Emirates
+
+ If you are using the Services in the United Arab Emirates (“UAE”), the following additional terms apply:
+
+How we share your personal data
+
+In addition to the main text of this policy, by using the Services in the UAE you agree to the terms of this Privacy Policy and consent to our sharing of your personal data in line with the main text of this Privacy Policy. 
+
+Governing law and dispute resolution
+
+By using our Services in the UAE, this Privacy Policy will be governed by and interpreted in accordance with the laws of the UAE. In the event of a dispute arising between the parties in connection with this Privacy Policy:
+
+where the dispute relates to a claim for a sum within the limits specified by the DIFC Small Claims Tribunal from time to time, then the dispute shall be referred by either party to the said Tribunal; and
+for all other disputes, the parties shall seek settlement of that dispute by mediation in accordance with the Mediation Rules of the DIFC-LCIA Arbitration Centre, which Rules are deemed to be incorporated by reference to this clause. If the dispute is not settled by mediation within 30 days of the commencement of the mediation, or such further period as the parties shall agree in writing, the dispute shall be referred to and finally resolved by arbitration under the Arbitration Rules of the DIFC-LCIA Arbitration Centre, which Rules are deemed to be incorporated by reference to this clause. The language to be used in the mediation and in the arbitration, shall be English. In any arbitration commenced pursuant to this clause the number of arbitrators shall be one and the arbitration shall be conducted in Dubai.
+Vietnam 
+
+If you are using our Services in Vietnam, the following additional terms apply:
+
+Age, Parental and Guardian Consent. By accessing and/or using the Services, you represent that you are at least 16 years of age or not under guardianship. If you are below 16 years old or under guardianship:
+
+you must obtain approval from your parent(s) or legal guardian(s); and
+your parent(s) or legal guardian(s) are responsible for: (i) all your actions in connection with your access to and use of the Services; (ii) your compliance with this policy; and (iii) ensuring that any of your participation in the Services will not, in any event, result in any violation of applicable laws and regulations relating to child protections.
+If you do not have consent from your parent(s) or legal guardian(s) and your parent(s) or legal guardian(s) is not willing to open the account under their name, you must cease accessing the Services.
+
+South Africa
+
+If you are using our Services in South Africa, the following additional terms apply:
+
+You declare that you are over the age of 18. If you are under the age of 18, please have your parent or legal guardian read this with you. If you are reviewing these terms as the parent/legal guardian of a user who is under the age of 18, you hereby declare that such user is above the age of 13 and that you have read and acknowledged this Privacy Policy and Terms of Use and agree to the use by your child of  the Platform and registration for an account.
+
+Philippines
+
+If you are using our Services in Philippines, the following additional terms shall apply pursuant to the relevant laws, rules and regulations and issuances by the Philippines National Privacy Commission (“NPC”) on data privacy.
+
+Your Rights. To the extent that the relevant laws, rules and regulations on data privacy recognize your rights and freedoms as data subjects, you shall have the right to information, object, access, rectification, erasure or blocking, lodge complaints before the NPC, damages and data portability. Before we can respond to a request to exercise one or more of the rights listed above, you may be required to verify your identity or your account details.
+
+Egypt
+
+If you are using our Services in Egypt, the following additional terms apply:
+
+You declare that you are over the age of 18. If you are under the age of 18, please have your parent or legal guardian read this with you. If you are reviewing these terms as the parent/legal guardian of a user who is under the age of 18, you hereby declare that such user is above the age of 13 and that you have read and acknowledged this Privacy Policy and Terms of Use and agree to the use by your child of the Platform and registration for an account.
