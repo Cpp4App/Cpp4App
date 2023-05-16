@@ -246,21 +246,14 @@ def resize_height_by_longest_edge(img_path, resize_length=800):
 
 if __name__ == '__main__':
     # initialization
-    # input_img_root = "C:/ANU/2022 s2/honours project/code/UIED-master/input_examples"
-    # output_root = "E:/Mulong/Result/rico/rico_uied/rico_new_uied_v3"
-    # data = json.load(open('E:/Mulong/Datasets/rico/instances_test.json', 'r'))
-    #
+
     # input_imgs = [pjoin(input_img_root, img['file_name'].split('/')[-1]) for img in data['images']]
     # input_imgs = sorted(input_imgs, key=lambda x: int(x.split('/')[-1][:-4]))  # sorted by index
     #
     # key_params = {'min-grad': 10, 'ffl-block': 5, 'min-ele-area': 50, 'merge-contained-ele': True,
     #               'max-word-inline-gap': 10, 'max-line-ingraph-gap': 4, 'remove-top-bar': True}
 
-    # input_img_root = "C:/ANU/2022 s2/honours project/code/UIED-master/input_examples/"
-    # output_root = "C:/ANU/2022 s2/honours project/code/UIED-master/result"
-
     input_img_root = "./input_examples/"
-    # input_img_root = "C:/ANU/2022 s2/honours project/dataset/new/original screenshots"
     output_root = "./result_classification"
     segment_root = '../scrutinizing_alexa/txt'
 
