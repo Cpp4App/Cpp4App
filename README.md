@@ -6,7 +6,7 @@ This repository is for the project Contextual Privacy Policies for Mobile Apps.
 
 🥳 We propose a novel multi-modal framework designed to automatically generate contextual privacy policies for mobile app. We utilize computer vision techniques and NLP techniques to extract corresponding segments from the privacy policy document.
 
-👏 We also build the benchmark dataset, i.e., **Cpp4App**, for contextual privacy policies on mobile apps, including 600+ CPPs with their corresponding privacy policy segments.  
+👏 We also build the benchmark dataset, i.e., **Cpp4App**, for contextual privacy policies on mobile apps, including 1,200+ CPPs with their corresponding privacy policy segments.  
 
 We build a demo website for SeePrivacy: https://cpp4app.github.io/SeePrivacy/
 
