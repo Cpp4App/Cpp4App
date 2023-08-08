@@ -50,40 +50,6 @@ def get_wordnet_pos(tag):
 
 
 def cleanHtml(txt):
-    # stop_words = set(stopwords.words('english'))
-    # stop_words.add("")
-    # personal_information = []
-    #
-    # with open(txt, encoding='utf-8') as file_obj:
-    #     for line in file_obj:
-    #         personal_information.append(line)
-    #
-    # text = ''.join(personal_information)
-    # soup = BeautifulSoup(text,'html.parser')
-    # lower = soup.get_text().lower()
-    # replacer = RegexpReplacer()
-    # lower = replacer.replace(lower)
-    # lower = re.sub(r'\s+', ' ', lower)
-    # lower = re.sub(r':',".",lower)
-    # lower = re.sub(r"e.g.","",lower)
-    # lower = re.sub(r"-", "", lower)
-    # lower = pre_process(lower)
-    # sentence_list = lower.split(".")
-    # return sentence_list
-
-    # new cleanHtml
-    # personal_information = []
-    # with open(txt, encoding='utf-8') as file_obj:
-    #     for line in file_obj:
-    #         if len(line.split(' ')) >= 5:
-    #             personal_information.append(line)
-    #
-    # text = ''.join(personal_information)
-    # soup = BeautifulSoup(text,'html.parser')
-    # lower = soup.get_text().lower()
-    # # sentence_list = re.split("[.;\n]", lower)
-    # # sentence_list = re.split(r'(?<!\be)\.|;|\n', text)
-    # sentence_list = re.split(r'(?<=[.;\n])\s+(?=[A-Z])|;|\n', text)
 
     # only split with line
     personal_information = []
@@ -188,18 +154,6 @@ def caculateSim(txt):
     return word
 
 def getSentences(txt):
-    # information_type = ["name", "email address", "phone number", "billing", "birth date", "age", 'user id', "gender",
-    #                     "location", "job title",
-    #                     "phonebook", "sms", "income", "ip", "internet protocol", "marital", "social security number",
-    #                     'credit card',
-    #                     "type browser", "browser version", "operate system", "postal address", "postcode", "profile",
-    #                     "education", "occupation", "student", "software",
-    #                     "driver", "insurance", "health", "signature", "province", "time zone", "isp", "tax",
-    #                     "device id", "domain name",
-    #                     "prior usage", "cookie", "web page", "interact site", "device information", "dash cam",
-    #                     "log data", "page service visit", "time spend page", "time date visit", "time date use service",
-    #                     "demographic information", "country", "usage pattern", "language", "reminder",
-    #                     "alexa notification", "amazon pay"]
 
     information_type = {'Name':['name', 'first name', 'last name', 'full name', 'real name', 'surname', 'family name', 'given name'],
                         'Birthday':['birthday', 'date of birth', 'birth date', 'DOB', 'dob full birthday'],
@@ -333,30 +287,6 @@ def getSentences_with_classifier(txt):
                         'Gender':['gender']}
 
     sentence_list = cleanHtml(txt)
-    # for sen in sentence_list:
-    #     sentence_list[sentence_list.index(sen)] = pre_process_type(sen)
-
-    # print("all sentences:\n")
-    # for sen in sentence_list:
-    #     print(sen)
-    #     print("\n")
-
-    # classified_sen = {'Name':[],
-    #                     'Birthday':[],
-    #                     'Address':[],
-    #                     'Phone':[],
-    #                     'Email':[],
-    #                     'Contacts':[],
-    #                     'Location':[],
-    #                     'Photos':[],
-    #                     'Voices':[],
-    #                     'Financial info':[],
-    #                     'IP':[],
-    #                     'Cookies':[],
-    #                   'Social media': [],
-    #                   'Profile': [],
-    #                   'Gender': []
-    #                   }
 
     classified_sen = {'Name': "",
                       'Birthday': "",
@@ -392,23 +322,6 @@ def getSentences_with_classifier(txt):
                       'Gender': []
                       }
 
-    # sen_dict = {'Name': [],
-    #                  'Birthday': [],
-    #                  'Address': [],
-    #                  'Phone': [],
-    #                  'Email': [],
-    #                  'Contacts': [],
-    #                  'Location': [],
-    #                  'Photos': [],
-    #                  'Voices': [],
-    #                  'Financial info': [],
-    #                  'IP': [],
-    #                  'Cookies': [],
-    #                  'Social media': [],
-    #                  'Profile': [],
-    #                  'Gender': []
-    #                  }
-
     # simList = []
     # for a in information_type:
     #     word.append(0)
@@ -423,21 +336,6 @@ def getSentences_with_classifier(txt):
 
         for type in information_type:
             for w in information_type[type]:
-                # if w in sentence:
-                #     if w == "geo" or w == "IP" or w == "DOB":
-                #         # check whether w is a part of an unrelated word
-                #         if sentence[sentence.index(w) - 1] == " " and sentence not in classified_sen[type]:
-                #             classified_sen[type].append(sentence)
-                #             info_found = True
-                #     else:
-                #         # check duplication
-                #         if sentence not in classified_sen[type]:
-                #             classified_sen[type].append(sentence)
-                #             info_found = True
-
-                # words = re.split(r'\W+', sentence.lower())
-                # if w.lower() in words:
-
 
                 if w.lower() in sentence:
                 # if (check_ngram(w) == 1 and w.lower() in sentence.split()) or (check_ngram(w) > 1 and w.lower() in sentence):
@@ -464,8 +362,6 @@ def getSentences_with_classifier(txt):
                         classified_sen[type] = classified_sen[type] + sentence + '\n'
                         # sen_dict[type].append(sentence)
 
-                        # print("keyword :", classified_sen[type][start_index:(end_index + 1)])
-                        # print(f"Found sentence {sentence} for keyword {classified_sen[type][start_index:(end_index + 1)]} with type {type}!!!!!!!!!!")
                     info_found = True
 
         if not info_found and clf_type.predict(tf.transform([sentence])) == "1":
@@ -484,16 +380,9 @@ def getSentences_with_classifier(txt):
                 for w in information_type[type]:
                     for chunk in chunk_list:
                         if w == chunk or wordnetSim_modified(chunk, w) > 0.8:
-                            # if sentence not in classified_sen[type]:
-                            #     classified_sen[type].append(sentence)
-                            # print("found synonym with score "+str(wordnetSim_modified(chunk, w))+" : '"+w+"' and '"+chunk+"' in sentence: "+sentence+" with score "+str(wordnetSim_modified(chunk, w)))
-                            #     found_this_type = True
-                            #     break
 
                             if sentence not in classified_sen[type]:
                                 # classified_sen[type].append(sentence)
-
-                                # print("found synonym with score " + str(wordnetSim_modified(chunk,w)) + " : '" + w + "' and '" + chunk + "' in sentence: " + sentence + " with score " + str(wordnetSim_modified(chunk, w)))
 
                                 if re.match(r'[a-zA-Z0-9]', sentence[-1]):
                                     sentence = sentence + '.'

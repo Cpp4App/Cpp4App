@@ -33,7 +33,7 @@ def draw_bounding_box_class(org, components, color_map=C.COLOR, line=2, show=Fal
     return board
 
 
-def draw_bounding_box(org, components, color=(0, 255, 0), line=2,
+def draw_bounding_box(org, ratio, components, color=(0, 255, 0), line=2,
                       show=False, write_path=None, name='board', is_return=False, wait_key=0):
     """
     Draw bounding box of components on the original image
@@ -48,8 +48,15 @@ def draw_bounding_box(org, components, color=(0, 255, 0), line=2,
     """
     if not show and write_path is None and not is_return: return
     board = org.copy()
+    # board = cv2.imread(img_path)
+    # ratio = board.shape[0]/org.shape[0]
+
     for compo in components:
         bbox = compo.put_bbox()
+
+        # bounding box on full size image
+        # bbox = int(ratio * bbox)
+        bbox = [int(x * ratio) for x in bbox]
         board = cv2.rectangle(board, (bbox[0], bbox[1]), (bbox[2], bbox[3]), color, line)
     if show:
         cv2.imshow(name, board)

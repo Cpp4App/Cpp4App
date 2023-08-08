@@ -5,11 +5,6 @@ import bs4
 from paragraph_bayesian import clf,tf
 from bs4 import BeautifulSoup
 
-# mark_txt = {'0':"./txt/data_types.txt",'1':"./txt/data_types.txt",'2':"./txt/personal_information_type.txt",
-#             '3':"./txt/share_information.txt",'4':"./txt/protect_information.txt",
-#             '5':"./txt/advertising.txt",'6':"./txt/user_right.txt",'7':"./txt/children.txt",
-#             '8':"./txt/region.txt",'9':"./txt/update.txt",'10':"./txt/way_to_collect.txt",
-#             '11':"./txt/provider.txt",'12':"./txt/data_retention.txt",'13':"./txt/data_types.txt",'14':"./txt/thrid_party.txt",'15':"./txt/data_types.txt"}
 mark_txt = {'0':"/data_types.txt",
             '1':"/data_types.txt",
             '2':"/personal_information_type.txt",
@@ -100,18 +95,13 @@ def write_text(title_list, pathName):
             if clean_title_list.index(title) == len(clean_title_list) - 1:
 
                 with open('./txt/'+pathName[:-5]+mark_txt.get(mark[0]),"a",encoding='utf-8') as f:
-                    # coarse_segment from web cpp
-                    # print("sibling.name: ", sibling.name)
-                    # print("type:", type(sibling))
-                    # if sibling.name == 'ul' or sibling.name is None or sibling.name == 'div' or sibling.name == 'a' or sibling.name == 'strong':
-                    #     continue
-                    # print("sibling: ", sibling)
+
                     if sibling.name is None or (sibling.name != 'li' and sibling.name != 'p' and sibling.name != 'br' and isinstance(sibling, bs4.element.Tag)):
                         continue
                     if sibling.name == 'li':
-                        # print("found li!!!!!!!")
+
                         if sibling.find_previous('p'):
-                            # print("found p!!!!!!!")
+
                             # p_text = sibling.find_previous('p').text.strip()
                             parent = ' '.join(sibling.find_previous('p').text.split())
                             text = ' '.join(sibling.get_text().split())
@@ -133,7 +123,7 @@ def write_text(title_list, pathName):
                         elif currentSibing[-1] == ";" or currentSibing[-1] == ":" or currentSibing[-1] == ",":
                             currentSibing = currentSibing[:-1]
                             currentSibing = currentSibing + "."
-                        # print("currentSibing: ", currentSibing)
+
                         f.write(currentSibing)
                         f.write("\n")
                         f.close()
@@ -141,18 +131,13 @@ def write_text(title_list, pathName):
             else:
 
                 with open('./txt/'+pathName[:-5]+mark_txt.get(mark[0]),"a",encoding='utf-8') as g:
-                    # coarse_segment from web cpp
-                    # print("sibling.name: ", sibling.name)
-                    # print("type:", type(sibling))
-                    # if sibling.name == 'ul' or sibling.name is None or sibling.name == 'div' or sibling.name == 'a' or sibling.name == 'strong':
-                    #     continue
-                    # print("sibling: ", sibling)
+
                     if sibling.name is None or (sibling.name != 'li' and sibling.name != 'p' and sibling.name != 'br' and isinstance(sibling, bs4.element.Tag)):
                         continue
                     if sibling.name == 'li':
-                        # print("found li!!!!!!!")
+
                         if sibling.find_previous('p'):
-                            # print("found p!!!!!!!")
+
                             # p_text = sibling.find_previous('p').text.strip()
                             parent = ' '.join(sibling.find_previous('p').text.split())
                             text = ' '.join(sibling.get_text().split())

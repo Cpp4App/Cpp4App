@@ -95,11 +95,16 @@ class Element:
             return 1
         return 2
 
-    def visualize_element(self, img, color=(0, 255, 0), line=1, show=False):
+    def visualize_element(self, img, color=(0, 255, 0), line=1, show=False, ratio=1):
         loc = self.put_bbox()
-        cv2.rectangle(img, loc[:2], loc[2:], color, line)
-        cv2.putText(img, str(int(self.id) + 1), (self.col_min - 10, self.row_max + 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5,
-                    color, 2)
+
+        if ratio != 1:
+            loc = [int(x * ratio) for x in loc]
+
+        # cv2.rectangle(img, loc[:2], loc[2:], color, line)
+        cv2.rectangle(img, (loc[0], loc[1]), (loc[2], loc[3]), color, line)
+        cv2.putText(img, str(int(self.id) + 1), (int(ratio*(self.col_min - 10)), int(ratio*(self.row_max + 10))), cv2.FONT_HERSHEY_SIMPLEX, 1,
+                    color, line)
         # for child in self.children:
         #     child.visualize_element(img, color=(255, 0, 255), line=line)
         if show:

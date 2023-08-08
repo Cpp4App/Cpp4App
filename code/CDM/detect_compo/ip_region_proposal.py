@@ -53,6 +53,9 @@ def compo_detection(input_img_path, output_root, uied_params,
     org, grey = pre.read_img(input_img_path, resize_by_height)
     binary = pre.binarization(org, grad_min=int(uied_params['min-grad']))
 
+    full_size_org, full_size_grey = pre.read_img(input_img_path)
+    ratio = full_size_org.shape[0] / org.shape[0]
+
     # *** Step 2 *** element detection
     det.rm_line(binary, show=show, wait_key=wai_key)
     uicompos = det.component_detection(binary, min_obj_area=int(uied_params['min-ele-area']))
@@ -69,7 +72,7 @@ def compo_detection(input_img_path, output_root, uied_params,
     # *** Step 4 ** nesting inspection: check if big compos have nesting element
     uicompos += nesting_inspection(org, grey, uicompos, ffl_block=uied_params['ffl-block'])
     Compo.compos_update(uicompos, org.shape)
-    draw.draw_bounding_box(org, uicompos, show=show, name='merged compo', write_path=pjoin(ip_root, name + '.jpg'), wait_key=wai_key)
+    draw.draw_bounding_box(full_size_org, ratio, uicompos, show=show, name='merged compo', write_path=pjoin(ip_root, name + '.jpg'), wait_key=wai_key)
 
     # # classify icons
     # model = models.resnet18().to('cpu')
@@ -194,8 +197,10 @@ def compo_detection(input_img_path, output_root, uied_params,
     #     draw.draw_bounding_box_class(org, uicompos, write_path=pjoin(output_root, 'result.jpg'))
 
     # *** Step 7 *** save detection result
+
     Compo.compos_update(uicompos, org.shape)
     file.save_corners_json(pjoin(ip_root, name + '.json'), uicompos)
+    # file.save_corners_json(pjoin(ip_root, name + '.json'), uicompos, full_size_org, ratio)
 
     cd_time = time.clock() - start
     print("[Compo Detection Completed in %.3f s] Input: %s Output: %s" % (cd_time, input_img_path, pjoin(ip_root, name + '.json')))

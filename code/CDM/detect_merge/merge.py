@@ -42,12 +42,12 @@ import detect_compo.lib_ip.ip_preprocessing as pre
 #                         'Cookies':['cookies', 'cookie'],
 #                         'Social':['facebook', 'twitter']}
 
-def show_elements(org_img, eles, show=False, win_name='element', wait_key=0, shown_resize=None, line=2):
+def show_elements(org_img, eles, ratio, show=False, win_name='element', wait_key=0, shown_resize=None, line=2):
     color_map = {'Text':(0, 0, 255), 'Compo':(0, 255, 0), 'Block':(0, 255, 0), 'Text Content':(255, 0, 255)}
     img = org_img.copy()
     for ele in eles:
         color = color_map[ele.category]
-        ele.visualize_element(img, color, line)
+        ele.visualize_element(img=img, color=color, line=line, ratio=ratio)
     img_resize = img
     if shown_resize is not None:
         img_resize = cv2.resize(img, shown_resize)
@@ -58,13 +58,13 @@ def show_elements(org_img, eles, show=False, win_name='element', wait_key=0, sho
             cv2.destroyWindow(win_name)
     return img_resize
 
-def show_one_element(org_img, eles, show=False, win_name='element', wait_key=0, shown_resize=None, line=2):
+def show_one_element(org_img, eles, ratio, show=False, win_name='element', wait_key=0, shown_resize=None, line=2):
     color_map = {'Text': (0, 0, 255), 'Compo': (0, 255, 0), 'Block': (0, 255, 0), 'Text Content': (255, 0, 255)}
     all_img = []
     for ele in eles:
         img = org_img.copy()
         color = color_map[ele.category]
-        ele.visualize_element(img, color, line)
+        ele.visualize_element(img=img, color=color, line=line, ratio=ratio)
         img_resize = img
         all_img.append(img_resize)
         if shown_resize is not None:
@@ -77,9 +77,15 @@ def show_one_element(org_img, eles, show=False, win_name='element', wait_key=0, 
     return all_img
 
 
-def save_elements(output_file, elements, img_shape):
+def save_elements(output_file, elements, img_shape, ratio=1):
     components = {'compos': [], 'img_shape': img_shape}
     for i, ele in enumerate(elements):
+
+        if ratio != 1:
+            ele.resize(ratio)
+            ele.width = ele.col_max - ele.col_min
+            ele.height = ele.row_max - ele.row_min
+
         c = ele.wrap_info()
         # c['id'] = i
         components['compos'].append(c)
@@ -94,10 +100,16 @@ def reassign_ids(elements):
 
 def refine_texts(texts, img_shape):
     refined_texts = []
+    # for text in texts:
+    #     # remove potential noise
+    #     if len(text.text_content) > 1 and text.height / img_shape[0] < 0.075:
+    #         refined_texts.append(text)
+
     for text in texts:
         # remove potential noise
-        if len(text.text_content) > 1 and text.height / img_shape[0] < 0.075:
+        if text.height / img_shape[0] < 0.075:
             refined_texts.append(text)
+
     return refined_texts
 
 
@@ -163,6 +175,15 @@ def refine_elements(compos, texts, input_img_path, intersection_bias=(2, 2), con
                 # the text is contained in the non-text compo
                 if iob >= containment_ratio and compo.category != 'Block':
                     contained_texts.append(text)
+            # print("id: ", compo.id)
+            # print("text.text_content: ", text.text_content)
+            # print("is_valid: ", is_valid)
+            # print("inter: ", inter)
+            # print("iou: ", iou)
+            # print("ioa: ", ioa)
+            # print("iob: ", iob)
+            # print("text_area: ", text_area)
+            # print("compo.area: ", compo.area)
         if is_valid and text_area / compo.area < containment_ratio:
             # for t in contained_texts:
             #     t.parent_id = compo.id
@@ -314,7 +335,9 @@ def merge(img_path, compo_path, text_path, merge_root=None, is_paragraph=False, 
     # check the original detected elements
     img = cv2.imread(img_path)
     img_resize = cv2.resize(img, (compo_json['img_shape'][1], compo_json['img_shape'][0]))
-    show_elements(img_resize, texts + compos, show=show, win_name='all elements before merging', wait_key=wait_key)
+    ratio = img.shape[0] / img_resize.shape[0]
+
+    show_elements(img, texts + compos, ratio, show=show, win_name='all elements before merging', wait_key=wait_key, line=3)
 
     # refine elements
     texts = refine_texts(texts, compo_json['img_shape'])
@@ -327,7 +350,7 @@ def merge(img_path, compo_path, text_path, merge_root=None, is_paragraph=False, 
         elements = merge_text_line_to_paragraph(elements, max_line_gap=7)
     reassign_ids(elements)
     check_containment(elements)
-    board = show_elements(img_resize, elements, show=show, win_name='elements after merging', wait_key=wait_key)
+    board = show_elements(img, elements, ratio, show=show, win_name='elements after merging', wait_key=wait_key, line=3)
 
     # save all merged elements, clips and blank background
     name = img_path.replace('\\', '/').split('/')[-1][:-4]

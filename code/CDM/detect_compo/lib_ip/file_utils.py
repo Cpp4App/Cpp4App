@@ -26,15 +26,23 @@ def save_corners(file_path, corners, compo_name, clear=True):
 
 
 def save_corners_json(file_path, compos):
+    # img_shape = [int(x * ratio) for x in compos[0].image_shape]
+    # w_h_ratio = org.shape[1] / org.shape[0]
+    # img_shape = org.shape
+
     img_shape = compos[0].image_shape
     output = {'img_shape': img_shape, 'compos': []}
     f_out = open(file_path, 'w')
 
     for compo in compos:
+        bbox = compo.put_bbox()
+        # bbox = [int(x * ratio) for x in bbox]
         c = {'id': compo.id, 'class': compo.category}
-        (c['column_min'], c['row_min'], c['column_max'], c['row_max']) = compo.put_bbox()
+        (c['column_min'], c['row_min'], c['column_max'], c['row_max']) = bbox
         c['width'] = compo.width
         c['height'] = compo.height
+        # c['width'] = int(compo.width * ratio)
+        # c['height'] = int(compo.height * ratio)
         output['compos'].append(c)
 
     json.dump(output, f_out, indent=4)
