@@ -12,7 +12,7 @@ We build a demo website for SeePrivacy: https://cpp4app.github.io/SeePrivacy/
 
 ## Overview
 
-<img title="" src="file:///C:/ANU/2022 s2/honours project/github_new/Cpp4App/overview_img/overview.jpg" alt="" data-align="center">
+<img title="" src="file:///overview_img/overview.jpg" alt="" data-align="center">
 
 ## Dependency
 
