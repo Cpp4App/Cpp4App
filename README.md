@@ -44,7 +44,7 @@ stanza==1.5.0
 
 - To run context detection module, modify the input image path in `code/CDM/run_batch.py` and run the file. The output will be saved in **result_classification**.
   
-  Note: You may replace the OpenAI API Key in `code/CDM/detect_classify/classification.py` with your own key to enable ChatGPT-3.5.
+  Note: You may replace the OpenAI API Key in `code/CDM/detect_classify/classification.py` with your own key to enable GPT-3.5.
 
 <!--
 **Cpp4App/Cpp4App** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
