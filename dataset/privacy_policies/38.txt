@@ -1,0 +1,215 @@
+Privacy Policy
+Last updated: June 7, 2023
+
+
+
+Our mission is to empower visual storytellers. When you use our services, you’re entrusting us with your information, and we understand this is a big responsibility. The purpose of this Privacy Policy is to help you understand what information we collect, why we collect it, how we use it, and what choices you have. By using our website, mobile applications, or interacting with us otherwise, you are accepting and consenting to the practices described in this Privacy Policy. If you have any questions, you can always email us at privacy@picsart.com.
+
+Information we collect
+Categories and types of information you share with us or give us permission to obtain
+
+When you create an account we collect the information you provide us through text fields, including contact and other identifying information such as your first and last name, email address, username, and password. We also require data about your location, which we approximate from your IP address or device settings. We use all of this to securely set up your account and provide our services to you.
+
+You may also have the option to share demographic information about yourself, such as your gender, age, and preferred language, which we collect to make Picsart more relevant to you.
+
+We also collect visual information through the images that you post to our services, including your profile photos.
+
+With your permission (on download or within one of our apps), we may access and store your device's contact list to help you find your friends on Picsart, invite them to Picsart, or to share your content with them. If you connect your Facebook, Instagram, or other third-party accounts to Picsart, we use information from those accounts (like your user name, friends, or contacts) for the same purpose. You can choose to stop sharing that information with us at any time by going to Facebook, Instagram, or other third-party account and removing our access.
+
+We may also collect information about others if you use Picsart to upload, share or distribute content that contains information about them, including their name, image, and contact information. With your prior explicit consent, we may also collect information about others from third party platforms such as social media sites, for example when you log in to Picsart using the login information of other social media sites.
+
+If you create an account to use our services through Apple, Google, Facebook, Snapchat, or similar services, with your permission, we collect information from those accounts (like your email and public profile information) to authenticate you within our services.
+
+We also get technical information when you use Picsart
+
+When you use a website or mobile application like ours, certain internet and electronic network activity information gets created and logged automatically. These are the types of technical information we collect:
+
+Log data. Our servers passively keep an electronic record of your interactions with our services, which we call "log data". For example, when you visit our website, sign into our services, or browse content, we collect data about these interactions that includes where you navigate within our website and apps, your IP address, browser type and settings, the date and time of your visit, search terms, which elements of our site and services you use the most, device data, and cookie data. We use log data to operate our services, maintain security, ensure reliable performance, and improve your experience on Picsart.
+
+Cookie data. We use "cookies" and similar technologies to collect log data and operate our services. You can learn more about how we use cookies in "cookies" below.
+
+Device data. We collect and combine data about the devices you use to access Picsart, and data about your device usage and activity.
+
+Metadata of visual information. We collect the metadata linked to your content. For example, your images may be accompanied by additional content like comments or a geotag. This makes your content more searchable by others and more interactive. If you geotag your photo or tag your photo using others' APIs, then the latitude and longitude coordinates may be stored with the photo and may be searchable (e.g., through a location or map feature) if you make your photo publicly viewable.
+
+TrueDepth API. If you have an Apple iOS device and use the camera function with our services, we may automatically collect data about the spatial positioning of a person’s head or face within an image frame using Apple’s TrueDepth API. We use this data in real time so you can apply effects and use other editing tools. None of the data collected via TrueDepth API ever leaves your device, it isn’t persistently stored on your device, and it isn’t shared with third parties.
+
+How we use the information we collect, and legal bases for use
+We process your information:
+
+To fulfill a contract, or take steps linked to a contract, including:
+
+Receive, process, and confirm your subscription or registration, and communicate with you about your account.
+
+Allow you to sign in to your account.
+
+Verify your identity.
+
+As required to conduct our business and pursue our legitimate business interests, in particular:
+
+Provide you with our services, and display content you create and post on our services and social media.
+
+Help you when you make customer service requests.
+
+Protect Picsart, our services, and community.
+
+Prevent fraud, abuse, and other misconduct on Picsart.
+
+Help us diagnose technical and service problems and administer our website and apps.
+
+Conduct research and development to improve Picsart and develop future products.
+
+Promote your Picsart account for greater discoverability.
+
+Understand how you use the service, to create a better experience for you and other users. This includes making inferences, like what content you may be interested in, based on how you use the service. For example, if you frequently save illustrations of penguins to your collections, we may infer you have a preference for graphic art over photographic content, or that you are interested in flightless birds.
+
+When required, with your consent or to pursue our legitimate business interests:
+
+Market Picsart services and deliver targeted advertising to you, unless you opt out, as controlled by your settings, email and privacy preferences.
+
+Send cookies or similar technologies to your device, as described in “cookies and similar technologies” below.
+
+For legal reasons:
+
+Verify your identity to comply with law.
+
+How and when we share your information
+Your Picsart profile and the posts you make are publicly accessible, which means anyone can see your profile photo, name, and description about yourself if you add that information. Creators you follow, creators who follow you, likes, and comments you make are also publicly accessible. We share your information with:
+
+At your direction, services like Facebook, Instagram, or Dropbox so that you can link your Picsart account and publish content to those services.
+
+Service providers we use to process information on our behalf, for the purposes we describe in this Privacy Policy. For example, we may contract with businesses for web hosting and maintenance, security and spam detection, data storage, and analytics and advertising (both described further below). We only engage businesses we believe are trustworthy and who have confirmed their privacy practices are consistent with ours, and we only provide the information necessary for them to perform these services on our behalf. Each service provider must agree to use reasonable security procedures and practices, appropriate to the nature of the information involved, in order to protect your information from unauthorized access, use, or disclosure. Service providers may only use your personal information in ways we specify.
+
+Ad networks and other ad serving providers (collectively, our “Ad Network”) that serve ads on behalf of others on our platform. These practices are described below in “Interest-based advertising.”
+
+Government and law enforcement bodies. We share information when we believe that disclosure is reasonably necessary or appropriate to comply with law, regulation, or legal request; to protect the safety, property, or rights of the public, Picsart, or any third party; or to detect, prevent, or stop any illegal, unethical, or legally actionable activity.
+
+Our subsidiaries and affiliates. We share your personal data with our subsidiaries in order to provide our services to you. We require that our subsidiaries protect your personal information consistent with this privacy policy. If we were to engage in a merger, acquisition, bankruptcy, or other transaction that involves the transfer of the information described in this Privacy Policy, we may share your information with the parties involved in that transaction.
+
+Cookies and similar technologies
+We use cookies (a small text file placed on your computer or mobile device to identify your computer and web browser) and may use anonymous identifiers (random strings of characters that are used for the same purposes as cookies), such as tracking pixels or web beacons. Some cookies are "session cookies" that last until you close your browser, and others are "persistent cookies" that last until you or your browser deletes them.
+
+We use cookies, tracking pixels, web beacons and similar technologies to analyze use of and improve our website and services, to see which areas and features of the website are most popular, to count the number of devices accessing the website, to personalize your experience, and to remember your preferences as described in "Interest-based advertising".  For example, we use cookies to store your language preferences or other settings so you don‘t have to set them up every time you visit Picsart.
+
+Most web browsers are initially set up to accept cookies. You can set your web browser to refuse all cookies or to indicate when a cookie is being sent; however, certain features of the website or services may not work if you delete or disable cookies. Some of our service providers may use their own cookies, anonymous identifiers, or other tracking technology in connection with the services they perform on our behalf.
+
+Analytics services
+We use third-party analytics service providers such as Google Analytics, Google’s Crashlytics and Firebase services, and Facebook. We may disclose your site use information to these analytics providers to help us learn more about how you and others use our services:
+
+To learn more about Google Analytics and how to opt out, visit https://support.google.com/analytics/answer/181881?hl=en
+
+To learn more about Crashlytics and Firebase, visit https://firebase.google.com/support/privacy
+
+To learn more about how Facebook uses your data, log on to your Facebook account and access your settings, or visit https://www.facebook.com/help/325807937506242/
+
+Interest-based advertising
+Our Ad Network may serve ads on behalf of Picsart and others on our platform and non-affiliated platforms. Our Ad Network may also serve advertisements to you using personal information, such as your email address, that they may collect directly from you both on our platform and on non-affiliated platforms. Some of those ads may be personalized, meaning that they are intended to be relevant to you based on information ad networks and ad serving providers collect about your use of our platform and other websites or apps over time, including information about relationships among different browsers and devices. This type of advertising is known as interest-based advertising. Your use of Picsart is supported, in part, by interest-based advertising, without which Picsart would not be able to provide a free or cost-effective experience. Accordingly, you agree that Picsart may display interest-based advertising to you and, if you are using our mobile app, you may enable such activity directly through the app. 
+
+Our systems do not recognize "Do Not Track" signals, but several of the third party companies who utilize cookies or beacons on our websites enable you to opt out of this behavioral advertising. We adhere to the Digital Advertising Alliance ("DAA") Self-Regulatory Principles in connection with interest-based advertising activity. Visit the DAA Webchoices tool at www.aboutads.info to learn more about this type of advertising and how to opt out of this advertising on websites by companies participating in the DAA self-regulatory program, and http://www.aboutads.info/appchoices for information on the DAA’s opt-out program for mobile apps. If you delete your cookies or use a different browser or mobile device, you may need to renew your opt out choices exercised through the DAA Webchoices tool. Electing to opt out will not stop advertising from appearing in your browser or applications. It may make the ads you see less relevant to your interests. Additionally, your browser may offer tools to limit the use of cookies or to delete cookies; however, if you use these tools, our website may not function as intended. Some of these companies may also be members of the Network Advertising Initiative. To learn more about the Network Advertising Initiative and your opt-out options for their members, see the NAI Consumer Opt Out.
+
+We support the ad industry’s 2009 Self-regulatory Principles for Online Behavioral Advertising and expect ad networks we directly engage to serve you interest-based advertising will do so as well, though we cannot guarantee their compliance. We are not responsible for effectiveness of, or compliance with, any third-party’s opt-out options or programs or the accuracy of their statements regarding their programs.
+
+We also provide you with additional tools to opt out of marketing from us, which you can learn about in "Your options" below.
+
+Your options
+If you have registered for an account, you can access, review, and update your personal information by logging into your account on the Picsart app and going to your profile. When logged into your account, you can also update your notification preferences, manage your linked devices, toggle contact syncing, and make other changes to your preferences in the app settings.
+
+On your iOS or Android device you can open the Settings app to change the camera, photos, and other permissions you grant Picsart, to opt out of receiving targeted advertisements from third parties by disabling the advertising identifier, and to modify other settings.
+
+You can opt out of receiving marketing emails by using the "unsubscribe" link or other means specified in marketing emails you receive from us. However, you cannot opt out of receiving all emails from us, such as service announcements and emails about the status of your account.
+
+For interest-based advertising, you can visit the DAA Webchoices tool at www.aboutads.info to learn how to opt out, and http://www.aboutads.info/appchoices for information on the DAA’s opt-out program for mobile apps. You can also visit the NAI Consumer Opt Out to learn more about the Network Advertising Initiative and your opt-out options.
+
+You can adjust your cookie preferences here.
+
+Our policy on children's information
+You are not allowed to use our services if you are under the age of 13, and our services are not directed at children under the age of 13. You must also be old enough to consent to the processing of your personal data in your country. If we become aware that we have received personal Information from a person under the age of 13, we will delete this information and terminate the person’s account
+
+Our biometric policy
+When you use Picsart tools and apply effects to, or generate images of, your face, you understand and agree that Picsart may use facial geometry or other facial data to produce the image or effect you request. We refer to this as “biometric data.” Our technology uses this biometric data to provide the applicable services to you and to improve Picsart. We never use this biometric data to identify any individual person or for authentication purposes.
+
+We only collect, use and store your biometric data in accordance with this Privacy Policy. In addition, we will only disclose your biometric data in accordance with the section above entitled “How and when we share your information” and, where required by applicable law, you consent to such disclosure. We will not sell, lease, trade, or otherwise profit from your biometric data.
+
+We store your biometric data using a reasonable standard of care and in a manner that is the same or exceeds the standards used to protect other confidential and sensitive information we may hold.
+
+We will destroy your biometric data upon the earliest of: (a) the date when our purpose for collecting or obtaining your biometric data has been satisfied, (b) termination of your Picsart account, or (c) within 3 years of the date your account becomes inactive. We may, however, retain your biometric data for a longer period of time if required by law or required by valid legal subpoena. We have established the following guidelines for permanently destroying biometric information, subject to the retention period in the prior sentence: as appropriate and applicable, Picsart will permanently destroy your biometric information by deleting or otherwise removing such information from our records in line with industry best practices at the time of the destruction or as otherwise directed by applicable law.
+
+International transfer
+We operate worldwide, and we may move, process, and store your data in the United States and any other country where we operate, which may be outside the country where you live. Not all data protection laws are the same. Some countries where we transfer personal data may allow government authorities greater access than your country does.
+
+See the section for EU and UK residents below to learn more about data transfers to and from that region.
+
+European Union and UK residents
+If you reside in the UK or another member state of the European Union, you have certain rights under EU data protection legislation. You can ask us to:
+
+Confirm we process your personal data, and ask what personal data we have about you.
+
+Change or fix your data.
+
+Delete your data.
+
+Stop using some or all of your data if we have no legal right to keep using it.
+
+Give you a copy of personal data you provided to us, in machine readable format.
+
+If you wish to exercise any of these rights, please visit privacy.picsart.com or email us at privacy@picsart.com. You are not required to pay any charge for exercising your rights. If you make a request, we have one month to respond to you. If you think we haven’t complied with data protection laws, you also have a right to file a complaint with your local data protection authority.
+
+The data controller for Picsart’s website and services is PicsArt, Inc., a Delaware company with its registered office at Optima Onyx Tower, Suite 1103, 1010 South Federal Highway, Hallandale Beach, FL 33009. Our data protection officer may be reached at DPO@picsart.com.
+
+To verify your identity when you make a request, you must provide us with your email address and respond to an email verification request. We will match that information to the information we have in our systems.
+
+Because Picsart is a worldwide service, we may transfer the personal data of EU residents to a country outside of the EU and the UK. When we do, we do so under the EU’s model contracts for the transfer of personal data to third countries (known as "standard contractual clauses").
+
+When you register for an account, we process and retain most personal information we have about you for as long as you are a user of our services. When you close your account, we begin deleting certain personal information that we no longer have a business reason to retain. We may be required to retain certain information about you, such as when there is a legal requirement to do so.
+
+Residents of Certain US States
+If you are a resident of California, Colorado, Connecticut, Utah or Virginia, you may have the following rights under the applicable privacy laws in your state ("State Privacy Laws"):
+
+You have the right to know what personal information we have collected about you, including sources, purpose of collection, and third parties we have shared it with.
+
+You can ask us to delete your personal information.
+
+You can ask us not to share or sell your information with any third party.
+
+If you wish to exercise any of these rights, please visit privacy.picsart.com. Alternatively, you can email us at privacy@picsart.com to submit your request. You must use "Request to Know Information", "Right to Know Categories," "Right to Delete," or "Right on Opt out of Sale/Sharing" or "Right to Correct Information" in the subject line of your email, as appropriate. For requests to know, delete and correct, you must provide us with your first name, last name, and the email address you used when you created your Picsart account, if applicable. Each request must be sent separately.
+
+To fulfill your requests, we must be able to verify your identity in our systems against the identity you provide. You’ll need to provide us with your email address and respond to an email verification request, so we can match that information to the information we have in our systems.
+
+To designate an authorized agent to act on your behalf, you must send a signed, written authorization containing your first name, last name, email address, and phone number to:
+
+PicsArt, Inc.
+Attn: Legal
+Optima Onyx Tower, Suite 1103, 1010 South Federal Highway
+Hallandale Beach, FL 33009
+
+We will process your request in an efficient manner, but we may not be able to delete your personal information (i) if we have to complete an ongoing transaction with you, (ii) if we detect or need to address a data security incident, if we need to preserve the integrity or security of our systems, or if we need to investigate, report or prosecute those responsible for any such action, (iii) in order to correct or repair an error, (iv) in order to protect against harassment or malicious, deceptive, fraudulent or illegal activity, (v) in order to comply with a legal requirement or to assist another party with any of its legal obligations under applicable privacy laws, or (vi) if we need it for other legitimate purposes, such as if we use it internally in a lawful manner to improve our services or to communicate with you about your account. We will also maintain a record of your requests. If we delete your personal information, many of our services will not work the same for you. For example, your previous opt-out requests will not be saved, your account will be deleted, any edited photos, videos, or other media will be deleted, and saved preferences and information will no longer be available.
+
+Do Not Sell or Share/Use My Personal Information for Targeted Advertising
+
+Residents in states with State Privacy Laws can opt-out of both sales of their personal information and the use of their information for targeted advertising (known as “sharing” in California). “Sale” includes most circumstances in which a business makes personal information available to a third party for monetary or other valuable consideration. In California “sharing” includes circumstances in which a business makes personal information available to a third party specifically for the purpose of cross-context behavioral advertising (also known as retargeting or interest-based advertising across platforms), even if no money is exchanged. Thus, when we use the term “share” under this section, we are using it in the narrow meaning of how it is defined under California law. Other State Privacy Laws do not use the term “share,” but describe the activity as using personal information for targeted advertising.
+
+Through our participation in digital advertising networks to deliver advertising tailored to your interests, we may sell or share/use for targeted advertising the following categories of personal information: identifiers, internet and electronic activity and commercial information. You can opt-out of us selling or sharing/using your personal information for targeted advertising for online activity by visiting privacy.picsart.com or emailing us at privacy@picsart.com to submit your request.
+
+California users under the age of 18 may request the removal of their content publicly posted in our services by emailing us at privacy@picsart.com. You will need to describe the content you want removed in enough detail to allow us to locate it, or we may not be able to process your request. In some cases, complete removal of your content may not be possible because your content may have been reposted (in whole or in part) by other users. We do not knowingly sell or share the personal information of minors under the age of 16.
+
+Right to Appeal
+
+If you are a Colorado, Connecticut or Virginia resident and we were unable to fulfill your request, you may appeal by emailing us at privacy@picsart.com within fourteen days of our decision and submitting an appeal request with a detailed reason for your appeal, as well as your state of residence.
+
+Sensitive Personal Information
+
+We do not collect or process Sensitive Personal Information, as defined by California Law, for inferring characteristics or use or disclose Sensitive Personal Information for purposes other than those permitted by law. In addition, we do not “sell” or “share” Sensitive Personal Information, as “sell” and “share” are defined above in the “Do Not Sell or Share/Use My Personal Information for Targeted Advertising” section.
+
+Retention
+We will store your personal information for as long as is reasonably necessary to fulfill the purposes described in this Privacy Policy or as required by law.
+
+How we make changes to this policy
+We may change this Privacy Policy from time to time to reflect our current practices and ensure compliance with applicable laws, so please check back frequently for changes. The most current version will always be at https://www.picsart.com/privacy. If we make material changes, we may notify you through other methods as required by law, such as at picsart.com, in our mobile applications, by sending email to the email address associated with your account, or by push notifications to your device if you’ve enabled them. If you continue to use Picsart after those changes are in effect, you agree to the new policy.
+
+Contact us
+If you have thoughts or questions about this privacy policy, contact our privacy team, including our data protection officer, by sending an email to privacy@picsart.com. You can also write to us at:
+
+PicsArt, Inc.
+Attn: Legal
+Optima Onyx Tower, Suite 1103, 1010 South Federal Highway
+Hallandale Beach, FL 33009
